@@ -1,0 +1,73 @@
+<http-action actionType="1" contentType="text/html; charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/api" path="/api_alert" postCharset="UTF-8"
+    postType="1" recordedResponseCode="404" recordedResponseTime="40"
+    responseSize="1848" serverUid="Weather Alert Application"
+    slaProfileEnabled="true" slaProfileName="Services - SLA"
+    uid="f08b69de-4ef3-42f1-800a-6c7910dd8fa9" useKeepAlive="true">
+    <binaryPostContentBase64><![CDATA[aW5jaWRlbnRfYW1wbT1hbSZyZXNwPWpzb24maW5jaWRlbnRfZGVzY3JpcHRpb249SGhoaGgmbG9jYXRpb25fbmFtZT1aLkEuJTIwbGVzJTIwUGFsdWRzJTIwMSUyMGV0JTIwMiwlMjBBdWJhZ25lLCUyMFByb3ZlbmNlLUFscGVzLUMlQzMlQjR0ZSUyMGQnQXp1ciwlMjBGcmFuY2UmaW5jaWRlbnRfdGl0bGU9RmZmZmZmJmxvbmdpdHVkZT01LjU5OTA0Mzg4Mjc1NTMwMSZpbmNpZGVudF9ob3VyPTExJmxhdGl0dWRlPTQzLjI5MDg2NDg0NzQ4MzY2JmluY2lkZW50X2NhdGVnb3J5PTEmaW5jaWRlbnRfZGF0ZT0wMS8yMC8yMDE0JnRhc2s9cmVwb3J0JmluY2lkZW50X21pbnV0ZT00OQ==]]></binaryPostContentBase64>
+    <responsePageFileDescription>team/vus/@alert_@component@a@p@i/%resources%/recorded-responses/res_cust_dd710236-885a-4add-ac23-1fb72b6144fa</responsePageFileDescription>
+    <requestContentFileDescription>team/vus/@alert_@component@a@p@i/%resources%/recorded-requests/req_cust_4452a73a-ed14-4365-8e63-7fbb55c7f094.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="incident_ampm"
+        recordRawValue="am" separator="=" value="am" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="resp"
+        recordRawValue="json" separator="=" value="json" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="incident_description" recordRawValue="Hhhhh" separator="="
+        value="${my_description}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="false"
+        name="location_name"
+        recordRawValue="Z.A.%20les%20Paluds%201%20et%202,%20Aubagne,%20Provence-Alpes-C%C3%B4te%20d'Azur,%20France"
+        separator="="
+        value="Z.A.%20les%20Paluds%201%20et%202,%20Aubagne,%20Provence-Alpes-C%C3%B4te%20d'Azur,${my_cities.Pays}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="incident_title" recordRawValue="Ffffff" separator="="
+        value="${my_title}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="longitude"
+        recordRawValue="5.599043882755301" separator="="
+        value="${my_cities.longitude}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="incident_hour"
+        recordRawValue="11" separator="=" value="11" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="latitude"
+        recordRawValue="43.29086484748366" separator="="
+        value="${my_cities.latitude}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="incident_category" recordRawValue="1" separator="="
+        value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="false"
+        name="incident_date" recordRawValue="01/20/2014" separator="="
+        value="${date_of_today}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="task"
+        recordRawValue="report" separator="=" value="report" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="incident_minute" recordRawValue="49" separator="="
+        value="49" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="task"
+        recordRawValue="report" separator="=" value="report" valueMode="USE_VALUE"/>
+    <header name="Host" value="192.168.100.102"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Content-Type" value="application/x-www-form-urlencoded"/>
+    <header name="Accept-Language" value="en-us"/>
+    <header name="Pragma" value="no-cache"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="User-Agent" value="Ushahidi/3.7 CFNetwork/672.0.8 Darwin/14.0.0"/>
+    <responseHeaders>HTTP/1.0 404 Not Found
+Date: Mon, 07 Dec 2015 20:32:47 GMT
+Server: Apache/2.2.22 (Debian)
+X-Powered-By: PHP/5.4.45-0+deb7u2
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Set-Cookie: ushahidi=pooo8k2dmihic14lq71oi90dl6; expires=Mon, 07-Dec-2015 22:32:47 GMT; path=/; httponly
+X-dynaTrace-JS-Agent: true
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 976
+Connection: close
+Content-Type: text/html; charset=UTF-8</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

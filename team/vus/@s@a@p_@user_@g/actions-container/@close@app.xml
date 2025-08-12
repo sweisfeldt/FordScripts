@@ -1,0 +1,10 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="CloseApp" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="08ae2126-058e-4c9d-9878-20b7a5d13df1" weightsEnabled="false">
+    <weighted-embedded-action uid="096b0e7d-aa75-4045-b06d-6162b8090810"/>
+    <weighted-embedded-action uid="502c168c-8ec6-4280-8d56-d39d17ab649f"/>
+    <weighted-embedded-action uid="16d197a2-a101-4c96-a0c2-aaf030dd647e"/>
+    <weighted-embedded-action uid="63faca2e-4428-4377-8b9b-d878238b264b"/>
+    <weighted-embedded-action uid="b81becbe-24fd-4da8-a6a2-6244d95f180c"/>
+</basic-logical-action-container>

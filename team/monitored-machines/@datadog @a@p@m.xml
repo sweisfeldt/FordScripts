@@ -1,0 +1,4 @@
+<monitored-host host-name="Datadog APM" mehost-name="localhost"
+    proxy-id="" uid="Datadog APM">
+    <embedded-action>7e375f5a-343f-4058-bb16-46fbe16b602a</embedded-action>
+</monitored-host>

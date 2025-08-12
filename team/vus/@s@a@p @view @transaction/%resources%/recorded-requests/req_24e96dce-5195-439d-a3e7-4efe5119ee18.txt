@@ -1,0 +1,12 @@
+GET https://sapdemo21.tricentis.com:44301/sap/bc/apc/iwngw/notification_push_apc HTTP/1.1
+Origin: https://sapdemo21.tricentis.com:44301
+Sec-WebSocket-Key: LYhzaCCEy9Ym1jqltuA8pA==
+Connection: Upgrade
+Upgrade: websocket
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Protocol: v10.pcp.sap.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Host: sapdemo21.tricentis.com:44301
+Cache-Control: no-cache
+Cookie: _mkto_trk=id:470-GZN-442&token:_mch-tricentis.com-1616053010726-90484; _gcl_au=1.1.2037278143.1616053008; _ga=GA1.1.1968461694.1593860611; _ga_489D1QT6C1=GS1.1.1616053007.1.0.1616053007.0; sap-usercontext=sap-language=EN&sap-client=100; MYSAPSSO2=AjQxMDMBABhGAFIAQQBHAEEAIAAgACAAIAAgACAAIAACAAYxADAAMAADABBTADQASAAgACAAIAAgACAABAAYMgAwADIAMQAwADUAMQA5ADAAMAAyADcABQAEAAAACAYAAlgACQACRQD%2fAPswgfgGCSqGSIb3DQEHAqCB6jCB5wIBATELMAkGBSsOAwIaBQAwCwYJKoZIhvcNAQcBMYHHMIHEAgEBMBowDjEMMAoGA1UEAxMDUzRIAggKIBgRGAkyATAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMjEwNTE5MDAyNzI0WjAjBgkqhkiG9w0BCQQxFgQUXzDL%2fPkw77xKjF42jrdJ3iOYSYUwCQYHKoZIzjgEAwQuMCwCFC1DWhb6H%2fCbO5QVuNCj54Q5VGupAhQAjs1wu8R9xGW3zVYrnVFmYKHTug%3d%3d; SAP_SESSIONID_S4H_100=JXYqp8NTHvWUokIAE1qiwfu1ZHG4OBHrpwAADTpE36E%3d
+

@@ -1,0 +1,50 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/sap/opu/odata/SSB/SMART_BUSINESS_RUNTIME_SRV/CacheParameters(P_CacheType=2)/Results"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@a@p @view @transaction/%resources%/recorded-artifacts/9b881957-0522-4008-a951-866fc7819c22.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="9b881957-0522-4008-a951-866fc7819c22">
+    <embedded-action>f963630a-1d78-4fa5-86f3-36ba7b48d00d</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_9f8e701d-c05b-4571-9614-6da1df4a6695.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/sap/opu/odata/SSB/SMART_BUSINESS_RUNTIME_SRV/CacheParameters(P_CacheType=2)/Results"
+    path="/sap/opu/odata/SSB/SMART_BUSINESS_RUNTIME_SRV/CacheParameters(P_CacheType=2)/Results"
+    postType="2"
+    recordedArtifactZipFileName="team/vus/@s@a@p @view @transaction/%resources%/recorded-artifacts/9b881957-0522-4008-a951-866fc7819c22.zip"
+    recordedResponseCode="200" responseSize="635"
+    serverUid="sapdemo21.tricentis.com" slaProfileEnabled="false"
+    uid="f963630a-1d78-4fa5-86f3-36ba7b48d00d" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_223e2995-ee66-4c47-91b5-d0aa9b9820f4</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_223e2995-ee66-4c47-91b5-d0aa9b9820f4.txt</requestContentFileDescription>
+    <parameter encodeName="false" encodeValue="false" name="$filter"
+        recordRawValue="ChipId%20eq%20'ET090M0NO76W9UE3QGULLUFY8'"
+        separator="=" value="ChipId%20eq%20'ET090M0NO76W9UE3QGULLUFY8'" valueMode="USE_VALUE"/>
+    <header name="referer" value="https://sapdemo21.tricentis.com:44301/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html?sap-client=100&amp;sap-language=EN"/>
+    <header name="x-xhr-logon" value="accept=&quot;iframe,strict-window,window&quot;"/>
+    <header name="cookie" value="_mkto_trk=id:470-GZN-442&amp;token:_mch-tricentis.com-1616053010726-90484; _gcl_au=1.1.2037278143.1616053008; _ga=GA1.1.1968461694.1593860611; _ga_489D1QT6C1=GS1.1.1616053007.1.0.1616053007.0; sap-usercontext=sap-language=EN&amp;sap-client=100; MYSAPSSO2=${SAP_SSO_Token}; SAP_SESSIONID_S4H_100=${SAP_SessionID}"/>
+    <header name="accept-language" value="en-SG,en-US;q=0.7,en;q=0.3"/>
+    <header name="x-requested-with" value="XMLHttpRequest"/>
+    <header name="sap-passport" value="2A54482A0300E60000756E64657465726D696E6564202020202020202020202020202020202020202000005341505F4532455F54415F557365722020202020202020202020202020202020756E64657465726D696E65645F737461727475705F302020202020202020202020202020202020200005756E64657465726D696E65642020202020202020202020202020202020202020413130304539353242374243343143454139384142394442464343324337433720202000077E403A265EBE4972BC602EAA40D602880000000000000000000000000000000000000000000000E22A54482A"/>
+    <header name="accept-encoding" value="gzip, deflate"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="accept" value="application/json, text/javascript, */*; q=0.01"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: application/json; charset=utf-8&#xd;
+content-length: 635&#xd;
+sap-metadata-last-modified: Mon, 26 Nov 2018 23:38:06 GMT&#xd;
+cache-control: no-store, no-cache&#xd;
+dataserviceversion: 2.0&#xd;
+sap-processing-info: ODataBEP=,crp=,RAL=,st=X,MedCacheHub=SHM,MedCacheBEP=SHM,codeployed=X,softstate=&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 41439.000000</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

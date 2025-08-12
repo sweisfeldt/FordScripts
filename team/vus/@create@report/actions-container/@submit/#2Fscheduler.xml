@@ -1,0 +1,40 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/scheduler"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@create@report/%resources%/recorded-artifacts/3afd03d0-0514-4c67-a7fc-1ae01230a7b7.zip"
+    slaProfileEnabled="false" thinkTime="639"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="3afd03d0-0514-4c67-a7fc-1ae01230a7b7">
+    <embedded-action>0277bce4-8f71-4212-9698-9aa1f248ba1a</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/scheduler" path="/scheduler" postType="1"
+    recordedArtifactZipFileName="team/vus/@create@report/%resources%/recorded-artifacts/3afd03d0-0514-4c67-a7fc-1ae01230a7b7.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="Server_Under_Test" slaProfileEnabled="false"
+    uid="0277bce4-8f71-4212-9698-9aa1f248ba1a" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_ef78954f-3efe-4593-8445-b75ef245e187.gif</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_ef78954f-3efe-4593-8445-b75ef245e187.txt</requestContentFileDescription>
+    <header name="Accept" value="image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.5"/>
+    <header name="Cookie" value="dtPC=2$202705392_655h-vAMKXHFHEJBNPGDFLBKKAPJOOBDJNFBPL; rxvt=1529604509807|1529602705475; dtSa=false%7C_load_%7C1%7C_load_%7C-%7C1529602704694%7C202705392_655%7Chttps%3A%2F%2Fwww.neotys.com%2F%7CThe%20Load%20Testing%20Platform%20Accelerating%20DevOps%20%5Ep%20NeoLoad%20by%20Neotys%7C1529602705392%7C; dtLatC=221; dtCookie=2$198F1553A4A842098DB289CB618878AC|RUM+Default+Application|1; _mkto_trk=id:863-AGR-996&amp;token:_mch-neotys.com-1529598639505-70135; rxVisitor=15295986379838KIKAB47MBC306548AOGONBQ5TJJB8QM; keyCampaignStatus=Responded; keyIncomingArray=a%3A8%3A%7Bs%3A17%3A%22keyIncomingSource%22%3Bs%3A10%3A%22Web+Direct%22%3Bs%3A13%3A%22keyCampaignId%22%3Bs%3A15%3A%227010J000001VOtv%22%3Bs%3A17%3A%22keyCampaignStatus%22%3Bs%3A9%3A%22Responded%22%3Bs%3A11%3A%22keyReferrer%22%3Bs%3A0%3A%22%22%3Bs%3A11%3A%22keyInterest%22%3BN%3Bs%3A11%3A%22keyKeywords%22%3Bs%3A0%3A%22%22%3Bs%3A9%3A%22keyAdwRef%22%3BN%3Bs%3A13%3A%22KEY_FROM_BLOG%22%3BN%3B%7D; _gid=GA1.2.1832784927.1529598640; keyCampaignId=7010J000001VOtv; _ga=GA1.2.230226571.1529598640; keyIncomingSource=Web+Direct; ushahidi=n867lja8k6se20gbdmt4b6lru7; __utma=254652684.230226571.1529598640.1529607377.1529607377.1; __utmb=254652684.3.10.1529607377; __utmc=254652684; __utmz=254652684.1529607377.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmt=1"/>
+    <header name="Host" value="ushahidi.demo.neotys.com"/>
+    <header name="Referer" value="http://ushahidi.demo.neotys.com/reports/thanks"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Thu, 21 Jun 2018 18:57:16 GMT&#xd;
+Server: Apache/2.2.16 (Debian)&#xd;
+X-Powered-By: PHP/5.3.3-7+squeeze19&#xd;
+Expires: Wed, 11 Nov 1998 11:11:11 GMT&#xd;
+Cache-Control: must-revalidate&#xd;
+Pragma: no-cache&#xd;
+Content-Length: 49&#xd;
+Content-Type: image/gif&#xd;
+Set-Cookie: ushahidi=n867lja8k6se20gbdmt4b6lru7; path=/; httponly</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

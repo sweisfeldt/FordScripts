@@ -1,0 +1,1 @@
+<variable-currentdate inc-type="0" inc-value="0" name="timestamp" order="1" pattern="milliseconds since the UNIX epoch" policy="1" range="2" uid="44a5fb72-f73c-420e-867f-fa8fff2a678e" whenOutOfValues="CYCLE_VALUES"/>

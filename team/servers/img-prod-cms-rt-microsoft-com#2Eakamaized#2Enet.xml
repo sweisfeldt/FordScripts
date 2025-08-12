@@ -1,0 +1,6 @@
+<http-server hostname="img-prod-cms-rt-microsoft-com.akamaized.net"
+    port="443" ssl="true"
+    uid="img-prod-cms-rt-microsoft-com.akamaized.net"
+    urlrewriting-argument-name="" urlrewriting-enabled="false"
+    urlrewriting-path-extension="false"
+    urlrewriting-path-not-equals="false" urlrewriting-path-separator=";"/>

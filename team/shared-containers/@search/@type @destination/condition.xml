@@ -1,0 +1,16 @@
+<if-action name="condition" uid="cd85c8dc-5422-4bc7-9033-4f82a792c43f">
+    <then-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Eléments exécutés lorsque la condition est vérifiée.</description>
+        <weighted-embedded-action uid="125e6d1f-7826-416a-8eca-ccd7a6dd9423"/>
+    </then-container>
+    <else-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Eléments exécutés lorsque la condition n'est pas vérifiée.</description>
+    </else-container>
+    <conditions match-type="1">
+        <condition operand1="${journey_id}" operand2="&lt;NOT FOUND>" operator="NOT_EQUALS"/>
+    </conditions>
+</if-action>

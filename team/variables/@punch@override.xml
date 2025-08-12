@@ -1,0 +1,4 @@
+<variable-list name="PunchOverride" offset="1" order="2" policy="2" range="1" uid="f794a5c2-2a14-4857-8916-ea0553b9335c" whenOutOfValues="CYCLE_VALUES">
+<column name="PunchType" number="0"/>
+<values><![CDATA[rO0ABXVyABRbW0xqYXZhLmxhbmcuU3RyaW5nOzJNCa2EMuRXAgAAeHAAAAACdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAXQACU91dCBQdW5jaHVxAH4AAgAAAAF0AAhJbiBQdW5jaA==]]></values>
+</variable-list>

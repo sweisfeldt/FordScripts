@@ -1,0 +1,50 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/sap/opu/odata/sap/ESH_SEARCH_SRV/InteractionEventLists_4"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@a@p @view @transaction/%resources%/recorded-artifacts/7ed465b5-63bb-4223-978c-8a5d33926da5.zip"
+    slaProfileEnabled="false" thinkTime="1131"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="7ed465b5-63bb-4223-978c-8a5d33926da5">
+    <embedded-action>474aa897-5415-4b1d-a2b9-5a6969f09b82</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_1a1b9fc5-5939-4c52-8f7c-e96e4393c1ec.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST"
+    name="/sap/opu/odata/sap/ESH_SEARCH_SRV/InteractionEventLists"
+    path="/sap/opu/odata/sap/ESH_SEARCH_SRV/InteractionEventLists"
+    postType="4"
+    recordedArtifactZipFileName="team/vus/@s@a@p @view @transaction/%resources%/recorded-artifacts/7ed465b5-63bb-4223-978c-8a5d33926da5.zip"
+    recordedResponseCode="201" responseSize="721"
+    serverUid="sapdemo21.tricentis.com" slaProfileEnabled="false"
+    uid="474aa897-5415-4b1d-a2b9-5a6969f09b82" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_02712032-95ab-4cc7-89d2-1220e2d3740a</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_02712032-95ab-4cc7-89d2-1220e2d3740a.txt</requestContentFileDescription>
+    <header name="referer" value="https://sapdemo21.tricentis.com:44301/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html?sap-client=100&amp;sap-language=EN"/>
+    <header name="x-xhr-logon" value="accept=&quot;iframe,strict-window,window&quot;"/>
+    <header name="cookie" value="_mkto_trk=id:470-GZN-442&amp;token:_mch-tricentis.com-1616053010726-90484; _gcl_au=1.1.2037278143.1616053008; _ga=GA1.1.1968461694.1593860611; _ga_489D1QT6C1=GS1.1.1616053007.1.0.1616053007.0; sap-usercontext=sap-language=EN&amp;sap-client=100; MYSAPSSO2=${SAP_SSO_Token}; SAP_SESSIONID_S4H_100=${SAP_SessionID}"/>
+    <header name="accept-language" value="en-SG,en-US;q=0.7,en;q=0.3"/>
+    <header name="x-requested-with" value="XMLHttpRequest"/>
+    <header name="sap-passport" value="2A54482A0300E60000756E64657465726D696E6564202020202020202020202020202020202020202000005341505F4532455F54415F557365722020202020202020202020202020202020756E64657465726D696E65645F737461727475705F302020202020202020202020202020202020200005756E64657465726D696E6564202020202020202020202020202020202020202038443344393444423038343234333941394445444534393232333543413444382020200007D3189CDC17BD4BABB8E490D237338FC00000000000000000000000000000000000000000000000E22A54482A"/>
+    <header name="x-csrf-token" value="${SAP_CSRF_Token}"/>
+    <header name="content-type" value="application/json"/>
+    <header name="cache-control" value="no-cache"/>
+    <header name="accept-encoding" value="gzip, deflate"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="accept" value="application/json"/>
+    <responseHeaders>HTTP/2.0 201&#xd;
+content-type: application/json; charset=utf-8&#xd;
+content-length: 721&#xd;
+location: https://sapdemo21.tricentis.com:44301/sap/opu/odata/sap/ESH_SEARCH_SRV/InteractionEventLists(1)&#xd;
+dataserviceversion: 2.0&#xd;
+sap-processing-info: ODataBEP=,crp=,RAL=,st=,MedCacheHub=SHM,codeployed=X,softstate=&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 44647.000000</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"ID":1,"SessionID":"7709C0B8333040B8936243BD6EBC710B","Events":[{"ID":1,"Type":"SESSION_START","Timestamp":"\\/Date(1621384094257)\\/","Parameters":[]}]}]]></textPostContent>
+</http-action>

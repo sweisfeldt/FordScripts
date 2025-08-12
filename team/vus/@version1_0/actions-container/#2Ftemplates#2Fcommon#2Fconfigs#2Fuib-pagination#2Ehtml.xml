@@ -1,0 +1,80 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/templates/common/configs/uib-pagination.html"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@version1_0/%resources%/recorded-artifacts/3fa6f0b9-6bd5-4a54-a8f3-f161aaadd379.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="3fa6f0b9-6bd5-4a54-a8f3-f161aaadd379">
+    <embedded-action>c3efdb2b-3b4b-42ab-b253-ec21fc33ee0b</embedded-action>
+    <embedded-action>2a6be0ef-a9bd-42dd-a22a-cac0f0f6cfce</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_8ca7270e-eea8-4774-8bdf-0c6479a7ab53.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    eTag="&quot;6f5-5418707096580-gzip:dtagent10221210719140800mtBg&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 17 Nov 2016 22:51:17 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/templates/common/configs/uib-pagination.html"
+    path="/templates/common/configs/uib-pagination.html" postType="2"
+    recordedArtifactZipFileName="team/vus/@version1_0/%resources%/recorded-artifacts/3fa6f0b9-6bd5-4a54-a8f3-f161aaadd379.zip"
+    recordedResponseCode="200" responseSize="1781"
+    serverUid="TestServer" slaProfileEnabled="false"
+    uid="c3efdb2b-3b4b-42ab-b253-ec21fc33ee0b" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_f6ad134a-2444-4233-991f-75429d4f7c53.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_f6ad134a-2444-4233-991f-75429d4f7c53.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Cookie" value="dtCookie=4$169C1047C750FB885E78E9C0B6BE9BFC; rxVisitor=1583330000296347P231VA41VF2P5T98066VRBJTHPHFA; dtSa=-; dtLatC=7; dtPC=4$530243823_780h34vLCKOKLJCFHDGGEAIINGOEPBKIKJOJPLB-0; rxvt=1583332046902|1583330144248"/>
+    <header name="Host" value="3.85.214.156"/>
+    <header name="Referer" value="http://3.85.214.156/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36"/>
+    <header name="x-dtpc" value="4$530243823_780h34vLCKOKLJCFHDGGEAIINGOEPBKIKJOJPLB-0"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Wed, 04 Mar 2020 13:57:24 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+Last-Modified: Thu, 17 Nov 2016 22:51:17 GMT&#xd;
+ETag: "6f5-5418707096580-gzip:dtagent10185200219132536d4eI"&#xd;
+Accept-Ranges: bytes&#xd;
+X-OneAgent-JS-Injection: true&#xd;
+X-ruxit-JS-Agent: true&#xd;
+Vary: Accept-Encoding&#xd;
+Content-Type: text/html&#xd;
+X-Content-Encoding-Over-Network: gzip&#xd;
+Transfer-Encoding: chunked</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;8b-541870900efc0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 17 Nov 2016 22:51:51 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/img/icons/png/plus-2x.png"
+    path="/img/icons/png/plus-2x.png" postType="2"
+    recordedArtifactZipFileName="team/vus/@version1_0/%resources%/recorded-artifacts/3fa6f0b9-6bd5-4a54-a8f3-f161aaadd379.zip"
+    recordedResponseCode="200" responseSize="0" serverUid="TestServer"
+    slaProfileEnabled="false" uid="2a6be0ef-a9bd-42dd-a22a-cac0f0f6cfce" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_4dd2b271-c704-4bea-a4ac-00d543d9bf7e.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_81c5a9d4-7609-4a24-b263-01ff9705524a.txt</requestContentFileDescription>
+    <header name="Accept" value="image/webp,image/apng,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Cookie" value="dtCookie=4$169C1047C750FB885E78E9C0B6BE9BFC; rxVisitor=1583330000296347P231VA41VF2P5T98066VRBJTHPHFA; dtSa=-; dtLatC=7; dtPC=4$530243823_780h34vLCKOKLJCFHDGGEAIINGOEPBKIKJOJPLB-0; rxvt=1583332046902|1583330144248"/>
+    <header name="Host" value="3.85.214.156"/>
+    <header name="Referer" value="http://3.85.214.156/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Wed, 04 Mar 2020 13:57:24 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+Last-Modified: Thu, 17 Nov 2016 22:51:51 GMT&#xd;
+ETag: "8b-541870900efc0"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 139&#xd;
+Content-Type: image/png</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

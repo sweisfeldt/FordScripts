@@ -1,0 +1,9 @@
+<variable-list name="JDBC_CONF" offset="1" order="1" policy="4" range="1" uid="eabf6102-e900-424c-b347-585ecf83316d" whenOutOfValues="CYCLE_VALUES">
+<description>for ORA... oracle.jdbc.OracleDriver   jdbc:oracle:thin:@PCD00451-vip.inf.MyCo.com:1526:PCD00451
+for SQL... com.microsoft.sqlserver.jdbc.SQLServerDriver  jdbc:sqlserver://kvs-us-neoload.int.kronos.com:1433;databaseName=kronosdemodb</description>
+<column name="account" number="2"/>
+<column name="driver" number="0"/>
+<column name="password" number="3"/>
+<column name="url" number="1"/>
+<values><![CDATA[rO0ABXVyABRbW0xqYXZhLmxhbmcuU3RyaW5nOzJNCa2EMuRXAgAAeHAAAAABdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAABHQAGG9yYWNsZS5qZGJjLk9yYWNsZURyaXZlcnQAOGpkYmM6b3JhY2xlOnRoaW46QFdGTVJFTDAxREIuZmVkZXJhdGVkLmZkczoxNTExOldGTVJFTDAxdAAIc3Vwcmtyb250ABRHbDRVUERTVUpOalhCeGxtT1FVVQ==]]></values>
+</variable-list>

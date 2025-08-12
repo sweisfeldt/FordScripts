@@ -1,0 +1,1 @@
+<variable-random-number max-value="120000" min-value="60000" name="RandomDelayupTo2Minutes" order="1" policy="1" random-seed="false" range="2" uid="4f007581-12b4-460b-a61f-637f7d5c713c" whenOutOfValues="CYCLE_VALUES"/>

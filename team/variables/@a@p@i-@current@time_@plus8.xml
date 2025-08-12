@@ -1,0 +1,1 @@
+<variable-currentdate inc-type="2" inc-value="8" name="API-CurrentTime_Plus8" order="1" pattern="HH:mm:ss" policy="1" range="2" uid="81e17310-9a72-4a02-8cdf-ddb5b3dc0760" whenOutOfValues="CYCLE_VALUES"/>

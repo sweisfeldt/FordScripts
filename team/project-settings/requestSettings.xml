@@ -1,0 +1,5 @@
+<requestSettings>
+    <additional-http-headers>
+        <header host="*" name="X-Datadog-LoadTest" value="Source=NeoLoad;VUID=${NL-VirtualUserId};UP=${NL-UserPathName};PG=${NL-HttpRequestPageName};RQID=${NL-HttpRequestId};TR=${NL-HttpRequestTransactionName};ZO=${NL-ZoneName};TE=${NL-ProjectName}-${NL-ScenarioName};TRID=${NL-TestResultId}"/>
+    </additional-http-headers>
+</requestSettings>

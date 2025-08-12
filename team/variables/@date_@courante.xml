@@ -1,0 +1,3 @@
+<variable-currentdate inc-type="0" inc-value="0" name="Date_Courante" order="1" pattern="MM/dd/yyyy" policy="1" range="2" uid="add38adb-c71d-41d9-9cad-29dcc155b844" whenOutOfValues="CYCLE_VALUES">
+<description>10/09/2014</description>
+</variable-currentdate>

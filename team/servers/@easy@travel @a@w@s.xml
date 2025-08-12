@@ -1,0 +1,4 @@
+<http-server hostname="52.87.240.156" port="8079" ssl="false"
+    uid="EasyTravel AWS" urlrewriting-argument-name="jsessionid"
+    urlrewriting-enabled="true" urlrewriting-path-extension="true"
+    urlrewriting-path-not-equals="false" urlrewriting-path-separator=";"/>

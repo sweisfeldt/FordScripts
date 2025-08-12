@@ -1,0 +1,91 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/sap/opu/odata/sap/ESH_SEARCH_SRV/PersonalizedSearchMainSwitches"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@a@p @view @transaction/%resources%/recorded-artifacts/9d687489-202c-4266-b96d-b788a699593b.zip"
+    slaProfileEnabled="false" thinkTime="779"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="9d687489-202c-4266-b96d-b788a699593b">
+    <embedded-action>fe9ef502-424e-47dc-961a-55e40143bd2a</embedded-action>
+    <embedded-action>e6613ded-4906-4cb3-bfb6-43dbeb795368</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_f31bcb61-ae25-41f4-af89-384b265dd100.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/sap/opu/odata/sap/ESH_SEARCH_SRV/PersonalizedSearchMainSwitches"
+    path="/sap/opu/odata/sap/ESH_SEARCH_SRV/PersonalizedSearchMainSwitches"
+    postType="4"
+    recordedArtifactZipFileName="team/vus/@s@a@p @view @transaction/%resources%/recorded-artifacts/9d687489-202c-4266-b96d-b788a699593b.zip"
+    recordedResponseCode="200" responseSize="540"
+    serverUid="sapdemo21.tricentis.com" slaProfileEnabled="false"
+    uid="fe9ef502-424e-47dc-961a-55e40143bd2a" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_07925281-03e0-4187-94e8-f756c6b1a1c1</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_07925281-03e0-4187-94e8-f756c6b1a1c1.txt</requestContentFileDescription>
+    <parameter encodeName="false" encodeValue="true" name="$filter"
+        recordRawValue="Selected%20eq%20true" separator="="
+        value="Selected eq true" valueMode="USE_VALUE"/>
+    <header name="referer" value="https://sapdemo21.tricentis.com:44301/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html?sap-client=100&amp;sap-language=EN"/>
+    <header name="x-xhr-logon" value="accept=&quot;iframe,strict-window,window&quot;"/>
+    <header name="cookie" value="_mkto_trk=id:470-GZN-442&amp;token:_mch-tricentis.com-1616053010726-90484; _gcl_au=1.1.2037278143.1616053008; _ga=GA1.1.1968461694.1593860611; _ga_489D1QT6C1=GS1.1.1616053007.1.0.1616053007.0; sap-usercontext=sap-language=EN&amp;sap-client=100; MYSAPSSO2=${SAP_SSO_Token}; SAP_SESSIONID_S4H_100=${SAP_SessionID}"/>
+    <header name="accept-language" value="en-SG,en-US;q=0.7,en;q=0.3"/>
+    <header name="x-requested-with" value="XMLHttpRequest"/>
+    <header name="sap-passport" value="2A54482A0300E600002E757368656C6C2E72656E6465726572732E66696F72693240312E37312E313800005341505F4532455F54415F55736572202020202020202020202020202020202073665F636C69636B5F3020202020202020202020202020202020202020202020202020202020202000052E757368656C6C2E72656E6465726572732E66696F72693240312E37312E3138344639373031343938343536343343363931454239384246413446343645363020202000077E403A265EBE4972BC602EAA40D602880000000000000000000000000000000000000000000000E22A54482A"/>
+    <header name="x-csrf-token" value="${SAP_CSRF_Token}"/>
+    <header name="content-type" value="application/json"/>
+    <header name="accept-encoding" value="gzip, deflate"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="accept" value="application/json"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: application/json; charset=utf-8&#xd;
+content-length: 540&#xd;
+sap-metadata-last-modified: Mon, 17 Jun 2019 08:01:59 GMT&#xd;
+cache-control: no-store, no-cache&#xd;
+dataserviceversion: 2.0&#xd;
+sap-processing-info: ODataBEP=,crp=,RAL=,st=X,MedCacheHub=SHM,MedCacheBEP=SHM,codeployed=X,softstate=&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 27837.000000</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/xml; charset=UTF-8"
+    eTag="W/&quot;20190711013345&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 11 Jul 2019 01:33:45 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/sap/bc/ui5_ui5/sap/ssbtiless1/~2A3A0F0A38E6C7DB58B422DAFDA90FF4~C/ssuite/smartbusiness/tiles/dual/DualTileChip.xml"
+    path="/sap/bc/ui5_ui5/sap/ssbtiless1/~2A3A0F0A38E6C7DB58B422DAFDA90FF4~C/ssuite/smartbusiness/tiles/dual/DualTileChip.xml"
+    postType="2"
+    recordedArtifactZipFileName="team/vus/@s@a@p @view @transaction/%resources%/recorded-artifacts/9d687489-202c-4266-b96d-b788a699593b.zip"
+    recordedResponseCode="200" responseSize="3548"
+    serverUid="sapdemo21.tricentis.com" slaProfileEnabled="false"
+    uid="e6613ded-4906-4cb3-bfb6-43dbeb795368" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_ed4f3568-a5ca-405a-9cbe-c780fc5dd04d.xml</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_ed4f3568-a5ca-405a-9cbe-c780fc5dd04d.txt</requestContentFileDescription>
+    <header name="referer" value="https://sapdemo21.tricentis.com:44301/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html?sap-client=100&amp;sap-language=EN"/>
+    <header name="x-xhr-logon" value="accept=&quot;iframe,strict-window,window&quot;"/>
+    <header name="cookie" value="_mkto_trk=id:470-GZN-442&amp;token:_mch-tricentis.com-1616053010726-90484; _gcl_au=1.1.2037278143.1616053008; _ga=GA1.1.1968461694.1593860611; _ga_489D1QT6C1=GS1.1.1616053007.1.0.1616053007.0; sap-usercontext=sap-language=EN&amp;sap-client=100; MYSAPSSO2=${SAP_SSO_Token}; SAP_SESSIONID_S4H_100=${SAP_SessionID}"/>
+    <header name="accept-language" value="en-SG,en-US;q=0.7,en;q=0.3"/>
+    <header name="x-requested-with" value="XMLHttpRequest"/>
+    <header name="sap-passport" value="2A54482A0300E600002E757368656C6C2E72656E6465726572732E66696F72693240312E37312E313800005341505F4532455F54415F55736572202020202020202020202020202020202073665F636C69636B5F3020202020202020202020202020202020202020202020202020202020202000052E757368656C6C2E72656E6465726572732E66696F72693240312E37312E3138434336343430393746323333344442463937333244373644433031343031384120202000077E403A265EBE4972BC602EAA40D602880000000000000000000000000000000000000000000000E22A54482A"/>
+    <header name="accept-encoding" value="gzip, deflate"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="accept" value="application/xml, text/xml, */*; q=0.01"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: text/xml; charset=UTF-8&#xd;
+content-length: 982&#xd;
+expires: Wed, 18 May 2022 12:31:43 GMT&#xd;
+cache-control: max-age=31536000, public&#xd;
+etag: W/"20190711013345"&#xd;
+last-modified: Thu, 11 Jul 2019 01:33:45 GMT&#xd;
+sap-server: true&#xd;
+content-encoding: gzip&#xd;
+date: Wed, 19 May 2021 00:27:51 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

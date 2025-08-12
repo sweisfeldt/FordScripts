@@ -1,0 +1,54 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/sap/opu/odata/SSB/SMART_BUSINESS_RUNTIME_SRV/CacheData"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@a@p @view @transaction/%resources%/recorded-artifacts/f2e5e6c7-fd39-4873-830e-b327c656a106.zip"
+    slaProfileEnabled="false" thinkTime="44"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="f2e5e6c7-fd39-4873-830e-b327c656a106">
+    <embedded-action>d56339ce-9807-4ade-8b0b-86b88fdeeed9</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_3f5f3c15-3c99-4128-b462-e22ec1cf6cd2.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST"
+    name="/sap/opu/odata/SSB/SMART_BUSINESS_RUNTIME_SRV/CacheData"
+    path="/sap/opu/odata/SSB/SMART_BUSINESS_RUNTIME_SRV/CacheData"
+    postType="4"
+    recordedArtifactZipFileName="team/vus/@s@a@p @view @transaction/%resources%/recorded-artifacts/f2e5e6c7-fd39-4873-830e-b327c656a106.zip"
+    recordedResponseCode="201" responseSize="617"
+    serverUid="sapdemo21.tricentis.com" slaProfileEnabled="false"
+    uid="d56339ce-9807-4ade-8b0b-86b88fdeeed9" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_2b2d3e7b-04d4-4c43-a367-85044a9bef1e</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_2b2d3e7b-04d4-4c43-a367-85044a9bef1e.txt</requestContentFileDescription>
+    <header name="referer" value="https://sapdemo21.tricentis.com:44301/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html?sap-client=100&amp;sap-language=EN"/>
+    <header name="x-xhr-logon" value="accept=&quot;iframe,strict-window,window&quot;"/>
+    <header name="cookie" value="_mkto_trk=id:470-GZN-442&amp;token:_mch-tricentis.com-1616053010726-90484; _gcl_au=1.1.2037278143.1616053008; _ga=GA1.1.1968461694.1593860611; _ga_489D1QT6C1=GS1.1.1616053007.1.0.1616053007.0; sap-usercontext=sap-language=EN&amp;sap-client=100; MYSAPSSO2=${SAP_SSO_Token}; SAP_SESSIONID_S4H_100=${SAP_SessionID}"/>
+    <header name="accept-language" value="en"/>
+    <header name="accept" value="application/json"/>
+    <header name="maxdataserviceversion" value="2.0"/>
+    <header name="sap-cancel-on-close" value="false"/>
+    <header name="sap-contextid-accept" value="header"/>
+    <header name="x-requested-with" value="XMLHttpRequest"/>
+    <header name="sap-passport" value="2A54482A0300E60000756E64657465726D696E6564202020202020202020202020202020202020202000005341505F4532455F54415F557365722020202020202020202020202020202020756E64657465726D696E65645F737461727475705F302020202020202020202020202020202020200005756E64657465726D696E65642020202020202020202020202020202020202020344435333846313133463530343932414135373142464244463931344236433620202000077E403A265EBE4972BC602EAA40D602880000000000000000000000000000000000000000000000E22A54482A"/>
+    <header name="x-csrf-token" value="${SAP_CSRF_Token}"/>
+    <header name="content-type" value="application/json"/>
+    <header name="cache-control" value="no-cache"/>
+    <header name="dataserviceversion" value="2.0"/>
+    <header name="accept-encoding" value="gzip, deflate"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/2.0 201&#xd;
+content-type: application/json; charset=utf-8&#xd;
+content-length: 617&#xd;
+location: https://sapdemo21.tricentis.com:44301/sap/opu/odata/SSB/SMART_BUSINESS_RUNTIME_SRV/CacheData('ET090M0NO76W9UE3QGULLUFY8')&#xd;
+dataserviceversion: 2.0&#xd;
+sap-processing-info: ODataBEP=,crp=,RAL=,st=,MedCacheHub=SHM,codeployed=X,softstate=&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 42935.000000</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"ChipId":"ET090M0NO76W9UE3QGULLUFY8","EvaluationId":".SFIN.CASHMGR.BANKSTATEMENTMONITOR.EVALU","Data":"[{\"ImportSuccessRate\":\"0.0000000\"}]","CacheMaxAge":1,"CacheMaxAgeUnit":"MIN","CacheType":2}]]></textPostContent>
+</http-action>

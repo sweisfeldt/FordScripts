@@ -1,0 +1,10 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="ProductsNeoLoad" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="b7c2150f-5652-4e97-9cf9-b9547a54e243" weightsEnabled="false">
+    <weighted-embedded-action uid="d1d85999-e6aa-4fad-bdaa-cc11b2b88235"/>
+    <weighted-embedded-action uid="fd297755-198c-4971-bcb7-8b43b0b8bd30"/>
+    <weighted-embedded-action uid="0aa70de1-bba4-44b4-9521-8cecfd05a350"/>
+    <weighted-embedded-action uid="2883eb3a-7bc4-4210-a0e8-209baf8ad30d"/>
+    <weighted-embedded-action uid="46ab7248-4b9c-4f6a-90a9-8db8e00225b0"/>
+</basic-logical-action-container>

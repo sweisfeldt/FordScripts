@@ -1,0 +1,47 @@
+<browser-action actionType="BrowserCaptureRequests" isHit="false"
+    name="Capture requests" uid="9ee0da82-14ce-47a8-b3a6-6a6c78b76da8">
+    <description>Configure the capture of HTTP requests metrics for analysis purpose. 
+It allows to capture the metrics (duration, TTFB, success...) of the requests sent and responses received between the browser and the server.
+By default when no regexp/url/resourceType parameter is specified, then all the HTTP request metrics are aggregated in a single group.
+When a matching criteria is defined (regexp/url/resourceType), the metrics of all HTTP requests matching it are aggregated in a group, and the non-matching one in a different group (for example with regexp (.*)\.html then requests will be split in two different groups: one for all HTML pages and another one for all other resources). When multiple matching criteria are defined (regexp/url/resourceType), they are applied in order they are defined.
+
+Possible parameters are:&#xd;
+- regexp (optional): The regular expression to group the requests (the matching check is applied on the full request URL: scheme, host name, port number, path and URL parameters).  Default value is ".*".&#xd;
+- url (optional): The URL to group the requests (excluding query parameters). &#xd;
+- resourceType (optional): The resource type to group the requests (possible values are document, stylesheet, image, media, font, script, texttrack, xhr, fetch, eventsource, websocket, manifest, ping, other). &#xd;
+- includeCache (optional): By default, only the requests sent over the network are captured (including the requests with 304 'Not Modified' response status since it includes network exchange). Set the value to true to capture also the requests locally loaded from the browser memory or disk cache (no network interaction). Default value is "false".</description>
+    <custom-action-parameter name="url" type="TEXT" value="https://controltower.ml-optimizely.com/v1/interests/gauge"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://logx.optimizely.com/v1/events"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://tr.outbrain.com/unifiedPixel"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://px.ads.linkedin.com/wa/"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://ipv6.6sc.co/"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://c.6sc.co/"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://cdn.cookielaw.org/consent/9ba9bce7-a295-4fe7-91f7-9da0e3d400e9/0190da1c-13d2-7bbf-92bf-c987f2ec03a2/en.json"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://cdn.cookielaw.org/scripttemplates/202401.1.0/assets/otCommonStyles.css"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://bat.bing.com/p/insights/c/h"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://px.ads.linkedin.com/attribution_trigger"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://cdn.cookielaw.org/consent/9ba9bce7-a295-4fe7-91f7-9da0e3d400e9/9ba9bce7-a295-4fe7-91f7-9da0e3d400e9.json"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://amplify.outbrain.com/topics"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://pipedream.wistia.com/mput"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://bat.bing-int.com/p/insights/c/h"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://epsilon.6sense.com/v3/company/details"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.trustradius.com/api/v1/events"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://fast.wistia.com/embed/medias/l1ip4y84xf.json"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://www.google-analytics.com/j/collect"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://3.212.39.155/is"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://support-hub.tricentis.com/api/now/sp/page"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://fast.wistia.com/embed/medias/at50xp9nys.json"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://fast.wistia.com/embed/medias/h83lwelz02.json"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://52.71.121.170/is"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://dudodiprj2sv7.cloudfront.net/api/v2/tqw/63724c10bb7c72868ed13198"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://54.156.2.105/is"/>
+    <custom-action-parameter name="url" type="TEXT" value="https://44.212.189.233/is"/>
+    <custom-action-parameter name="resourceType" type="TEXT" value="script"/>
+    <custom-action-parameter name="resourceType" type="TEXT" value="image"/>
+    <custom-action-parameter name="resourceType" type="TEXT" value="stylesheet"/>
+    <custom-action-parameter name="resourceType" type="TEXT" value="document"/>
+    <custom-action-parameter name="resourceType" type="TEXT" value="ping"/>
+    <custom-action-parameter name="resourceType" type="TEXT" value="font"/>
+    <custom-action-parameter name="resourceType" type="TEXT" value="other"/>
+</browser-action>

@@ -1,0 +1,44 @@
+<websocket-channel-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="websocket_channel_1"
+    path="/SAP/BC/APC/SAP/WEBGUI_SERVICES" postType="2"
+    pushType="WEBSOCKET" recordedResponseCode="101" responseSize="0"
+    serverUid="sapdemo21.tricentis.com" slaProfileEnabled="false"
+    uid="507cbc90-761f-47eb-a285-063938172210" useKeepAlive="false">
+    <response-matching extractionMethod="REGEXP_ONLY" regexp="" template="$1$"/>
+    <responsePageFileDescription>team/vus/@s@a@p @view @transaction/%resources%/recorded-responses/res_c771f6a0-1e44-4108-b32f-ea3766aa505c</responsePageFileDescription>
+    <requestContentFileDescription>team/vus/@s@a@p @view @transaction/%resources%/recorded-requests/req_9447d48f-5ea8-47e4-a04e-5e5fc674348c.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="window_id"
+        recordRawValue="000D3A44DFA11EEBAE8722C7E8EFA700" separator="="
+        value="000D3A44DFA11EEBAE8722C7E8EFA700" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="session_id"
+        recordRawValue="000D3A44DFA11EEBAE8722C7E8EFA700" separator="="
+        value="000D3A44DFA11EEBAE8722C7E8EFA700" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="pr_session_id"
+        recordRawValue="000D3A44DFA11EEBAE8722C7E8EF8700" separator="="
+        value="000D3A44DFA11EEBAE8722C7E8EF8700" valueMode="USE_VALUE"/>
+    <header name="Cache-Control" value="no-cache"/>
+    <header name="Connection" value="Upgrade"/>
+    <header name="Cookie" value="_mkto_trk=id:470-GZN-442&amp;token:_mch-tricentis.com-1616053010726-90484; _gcl_au=1.1.2037278143.1616053008; _ga=GA1.1.1968461694.1593860611; _ga_489D1QT6C1=GS1.1.1616053007.1.0.1616053007.0; sap-usercontext=sap-language=EN&amp;sap-client=100; MYSAPSSO2=${SAP_SSO_Token}; SAP_SESSIONID_S4H_100=${SAP_SessionID}"/>
+    <header name="Host" value="sapdemo21.tricentis.com:44301"/>
+    <header name="Origin" value="https://sapdemo21.tricentis.com:44301"/>
+    <header name="Sec-WebSocket-Key" value="1zQkzjJm1LE8y7M+IaYOKA=="/>
+    <header name="Sec-WebSocket-Protocol" value="v10.pcp.sap.com"/>
+    <header name="Sec-WebSocket-Version" value="13"/>
+    <header name="Upgrade" value="websocket"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 101 Switching Protocols&#xd;
+sec-websocket-accept: FqqMh2HLMTuVW/XMdnDQ5URv6jY=&#xd;
+upgrade: WebSocket&#xd;
+connection: Upgrade&#xd;
+sec-websocket-protocol: v10.pcp.sap.com&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 4809.000000</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <push-handler filecount="0"
+        filename="team/vus/@s@a@p @view @transaction/%resources%/recorded-responses/websocket_0cedca7d-6dfe-4278-b46e-acc6e3bf5808_1621384305125.dat" pushType="WEBSOCKET">
+        <result-handler responseSource="MESSAGE" type="REGEXP"/>
+    </push-handler>
+</websocket-channel-action>

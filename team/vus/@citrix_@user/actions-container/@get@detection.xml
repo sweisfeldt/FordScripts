@@ -1,0 +1,10 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="GetDetection" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="74fea8f4-6894-4793-a169-92dd5b23ba16" weightsEnabled="false">
+    <weighted-embedded-action uid="65b999d5-7c2b-43b5-8822-9412d4c624d7"/>
+    <weighted-embedded-action uid="553ca037-6798-4e27-bf8d-6aa3bca7528b"/>
+    <weighted-embedded-action uid="44a42989-02f7-4b4e-8ecd-f67557ffb28d"/>
+    <weighted-embedded-action uid="cfdbcd0f-0d3c-4a72-ba72-9ea0fd62871b"/>
+    <weighted-embedded-action uid="fd92ec3c-7f40-4e9f-a3d8-52f296f9648b"/>
+</basic-logical-action-container>

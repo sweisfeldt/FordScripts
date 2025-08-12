@@ -1,0 +1,4 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="ReturnToHomePage" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="6516e037-745e-4934-b461-bf479e0c8bcf" weightsEnabled="false"/>

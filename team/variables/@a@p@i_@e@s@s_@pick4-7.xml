@@ -1,0 +1,1 @@
+<variable-random-number max-value="7" min-value="4" name="API_ESS_Pick4-7" order="1" policy="5" random-seed="false" range="2" uid="ab2cd752-27f5-4c96-9f5e-53f17cf2e63e" whenOutOfValues="CYCLE_VALUES"/>

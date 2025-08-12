@@ -1,0 +1,5 @@
+<variable-list name="SuperAccess" offset="1" order="1" policy="1" range="1" uid="29c15dc2-4808-4799-bd1e-3c198db4755e" whenOutOfValues="CYCLE_VALUES">
+<column name="password" number="1"/>
+<column name="username" number="0"/>
+<values><![CDATA[rO0ABXVyABRbW0xqYXZhLmxhbmcuU3RyaW5nOzJNCa2EMuRXAgAAeHAAAAABdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAnQACVN1cGVyVXNlcnQABmRldjEyMw==]]></values>
+</variable-list>

@@ -1,0 +1,3 @@
+<variable-constant constantValue="7/16/2015" name="EditDate111" order="1" policy="4" range="2" uid="de36458c-273d-4c2d-ae55-dd453c6f8160" whenOutOfValues="CYCLE_VALUES">
+<description>USE ANY DATE BETWEEN 7/12/2015 TO 7/18/2015</description>
+</variable-constant>

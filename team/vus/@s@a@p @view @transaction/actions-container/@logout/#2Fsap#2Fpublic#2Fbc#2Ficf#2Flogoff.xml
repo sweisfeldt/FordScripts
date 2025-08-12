@@ -1,0 +1,84 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/sap/public/bc/icf/logoff" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@a@p @view @transaction/%resources%/recorded-artifacts/abf7012b-04c0-458e-a281-ab9c3d3f9e37.zip"
+    slaProfileEnabled="false" thinkTime="3"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="abf7012b-04c0-458e-a281-ab9c3d3f9e37">
+    <embedded-action>113acf57-adf7-421a-bc9a-7c785a4f344e</embedded-action>
+    <embedded-action>7e978dab-6105-4864-b68a-fe9565ed8379</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_9f37c340-7463-4dd3-bb70-a4b045fed789.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/sap/public/bc/icf/logoff"
+    path="/sap/public/bc/icf/logoff" postType="2"
+    recordedArtifactZipFileName="team/vus/@s@a@p @view @transaction/%resources%/recorded-artifacts/abf7012b-04c0-458e-a281-ab9c3d3f9e37.zip"
+    recordedResponseCode="307" responseSize="0"
+    serverUid="sapdemo21.tricentis.com" slaProfileEnabled="false"
+    uid="113acf57-adf7-421a-bc9a-7c785a4f344e" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_7f92c720-dbff-4731-8799-702f6e5026f2.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_cf55e452-ba4d-40e2-a1bc-6339908b3440.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="sap-client"
+        recordRawValue="100" separator="=" value="100" valueMode="USE_VALUE"/>
+    <header name="referer" value="https://sapdemo21.tricentis.com:44301/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html?sap-client=100&amp;sap-language=EN"/>
+    <header name="cookie" value="_mkto_trk=id:470-GZN-442&amp;token:_mch-tricentis.com-1616053010726-90484; _gcl_au=1.1.2037278143.1616053008; _ga=GA1.1.1968461694.1593860611; _ga_489D1QT6C1=GS1.1.1616053007.1.0.1616053007.0; sap-usercontext=sap-language=EN&amp;sap-client=100; MYSAPSSO2=${SAP_SSO_Token}; SAP_SESSIONID_S4H_100=${SAP_SessionID}"/>
+    <header name="accept-language" value="en-SG,en-US;q=0.7,en;q=0.3"/>
+    <header name="accept-encoding" value="gzip, deflate"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="accept" value="text/html, application/xhtml+xml, image/jxr, */*"/>
+    <responseHeaders>HTTP/2.0 307&#xd;
+content-type: text/html&#xd;
+Content-Length: 0&#xd;
+location: /sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html&#xd;
+sap-server: true&#xd;
+cache-control: no-cache&#xd;
+pragma: no-cache&#xd;
+expires: 0&#xd;
+sap-perf-fesrec: 7522.000000&#xd;
+set-cookie: sap-usercontext=0; expires=Tue, 01-Jan-1980 00:00:01 GMT; path=/; SameSite=None; Secure&#xd;
+set-cookie: SAP_SESSIONID_S4H_100=0; expires=Tue, 01-Jan-1980 00:00:01 GMT; path=/; SameSite=None; Secure&#xd;
+set-cookie: sap-XSRF_S4H_100=0; expires=Tue, 01-Jan-1980 00:00:01 GMT; path=/; SameSite=None; Secure&#xd;
+set-cookie: MYSAPSSO2=0; expires=Tue, 01-Jan-1980 00:00:01 GMT; path=/; SameSite=None; Secure&#xd;
+set-cookie: sap-ssolist=0; expires=Tue, 01-Jan-1980 00:00:01 GMT; path=/; SameSite=None; Secure&#xd;
+set-cookie: SPNegoTokenRequested=0; expires=Tue, 01-Jan-1980 00:00:01 GMT; path=/; SameSite=None; Secure</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="2" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html"
+    path="/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html"
+    postType="2"
+    recordedArtifactZipFileName="team/vus/@s@a@p @view @transaction/%resources%/recorded-artifacts/abf7012b-04c0-458e-a281-ab9c3d3f9e37.zip"
+    recordedResponseCode="200"
+    refererUid="113acf57-adf7-421a-bc9a-7c785a4f344e"
+    responseSize="7241" serverUid="sapdemo21.tricentis.com"
+    slaProfileEnabled="false" uid="7e978dab-6105-4864-b68a-fe9565ed8379" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_4cbc4528-bafa-41c2-87af-7f11088f29d4.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_4cbc4528-bafa-41c2-87af-7f11088f29d4.txt</requestContentFileDescription>
+    <header name="referer" value="https://sapdemo21.tricentis.com:44301/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html?sap-client=100&amp;sap-language=EN"/>
+    <header name="cookie" value="_mkto_trk=id:470-GZN-442&amp;token:_mch-tricentis.com-1616053010726-90484; _gcl_au=1.1.2037278143.1616053008; _ga=GA1.1.1968461694.1593860611; _ga_489D1QT6C1=GS1.1.1616053007.1.0.1616053007.0"/>
+    <header name="accept-language" value="en-SG,en-US;q=0.7,en;q=0.3"/>
+    <header name="accept-encoding" value="gzip, deflate"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="accept" value="text/html, application/xhtml+xml, image/jxr, */*"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: text/html; charset=utf-8&#xd;
+content-length: 2536&#xd;
+sap-err-id: ICFLOGONREQUIRED&#xd;
+expires: 0&#xd;
+pragma: no-cache, no-store, private&#xd;
+cache-control: no-cache, no-store, private&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 25155.000000&#xd;
+content-encoding: gzip&#xd;
+set-cookie: sap-usercontext=sap-client=100; path=/; SameSite=None; Secure</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

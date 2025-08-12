@@ -1,0 +1,4 @@
+<variable-constant constantValue="120000" name="TwoMinutes" order="1" policy="4" range="2" uid="ea9a2ccf-abd2-4b95-b1d7-4e3c02db1068" whenOutOfValues="CYCLE_VALUES">
+<description>in ms  
+60000</description>
+</variable-constant>

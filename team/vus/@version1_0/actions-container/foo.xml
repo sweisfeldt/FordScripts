@@ -1,0 +1,8 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="foo" pacingEnd="0" pacingMode="MODE_NO_PACING" pacingStart="0"
+    pacingValue="0" slaProfileEnabled="false"
+    uid="f26db9f1-7471-4d46-b7aa-2c1f4208b683" weightsEnabled="false">
+    <weighted-embedded-action uid="2f93e1be-2039-485a-b5c0-590e4b1dcd9e"/>
+    <weighted-embedded-action uid="2c249dd3-20f2-4dc3-924a-2a133a1722db"/>
+    <weighted-embedded-action uid="c08d6152-06e4-456a-8649-1295fd5d53b0"/>
+</basic-logical-action-container>

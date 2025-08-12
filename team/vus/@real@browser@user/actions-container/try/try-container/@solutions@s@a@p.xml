@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="SolutionsSAP" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="f8a459c9-fcab-4022-9c23-c7853e4e7798" weightsEnabled="false">
+    <weighted-embedded-action uid="034ed715-67d7-4dcf-a57e-22a0f1f89122"/>
+    <weighted-embedded-action uid="995249b4-fd43-4738-9bb0-6af67544f1aa"/>
+</basic-logical-action-container>

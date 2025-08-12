@@ -1,0 +1,4 @@
+<variable-constant constantValue="60000" name="OneMinute" order="1" policy="4" range="2" uid="bdeff312-c3cf-4181-953e-b2c4d8788eed" whenOutOfValues="CYCLE_VALUES">
+<description>in ms  
+60000</description>
+</variable-constant>

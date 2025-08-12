@@ -1,0 +1,35 @@
+<websocket-channel-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="websocket_channel_2"
+    path="/sap/bc/apc/iwngw/notification_push_apc" postType="2"
+    pushType="WEBSOCKET" recordedResponseCode="101" responseSize="0"
+    serverUid="sapdemo21.tricentis.com" slaProfileEnabled="false"
+    uid="887481bd-6289-4aa0-b519-a42e385403cf" useKeepAlive="false">
+    <response-matching extractionMethod="REGEXP_ONLY" regexp="" template="$1$"/>
+    <responsePageFileDescription>team/vus/@s@a@p @view @transaction/%resources%/recorded-responses/res_b760fa4c-3849-4c36-bbe4-6170f28450db</responsePageFileDescription>
+    <requestContentFileDescription>team/vus/@s@a@p @view @transaction/%resources%/recorded-requests/req_24e96dce-5195-439d-a3e7-4efe5119ee18.txt</requestContentFileDescription>
+    <header name="Cache-Control" value="no-cache"/>
+    <header name="Connection" value="Upgrade"/>
+    <header name="Cookie" value="_mkto_trk=id:470-GZN-442&amp;token:_mch-tricentis.com-1616053010726-90484; _gcl_au=1.1.2037278143.1616053008; _ga=GA1.1.1968461694.1593860611; _ga_489D1QT6C1=GS1.1.1616053007.1.0.1616053007.0; sap-usercontext=sap-language=EN&amp;sap-client=100; MYSAPSSO2=${SAP_SSO_Token}; SAP_SESSIONID_S4H_100=${SAP_SessionID}"/>
+    <header name="Host" value="sapdemo21.tricentis.com:44301"/>
+    <header name="Origin" value="https://sapdemo21.tricentis.com:44301"/>
+    <header name="Sec-WebSocket-Key" value="LYhzaCCEy9Ym1jqltuA8pA=="/>
+    <header name="Sec-WebSocket-Protocol" value="v10.pcp.sap.com"/>
+    <header name="Sec-WebSocket-Version" value="13"/>
+    <header name="Upgrade" value="websocket"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 101 Switching Protocols&#xd;
+sec-websocket-accept: KSyHq50GOf82ufgL1CRhDnZ0Rv0=&#xd;
+upgrade: WebSocket&#xd;
+connection: Upgrade&#xd;
+sec-websocket-protocol: v10.pcp.sap.com&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 5015.000000</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <push-handler filecount="0"
+        filename="team/vus/@s@a@p @view @transaction/%resources%/recorded-responses/websocket_4deb2c4e-4d76-48df-993e-21e65ae59aef_1621384305795.dat" pushType="WEBSOCKET">
+        <result-handler responseSource="MESSAGE" type="REGEXP"/>
+    </push-handler>
+</websocket-channel-action>

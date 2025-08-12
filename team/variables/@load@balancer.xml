@@ -1,0 +1,5 @@
+<variable-list name="LoadBalancer" offset="1" order="2" policy="4" range="1" uid="16690ef4-274a-4733-80b4-3f0501310a88" whenOutOfValues="CYCLE_VALUES">
+<description>Use Load Balancer IP/Name -or- Use list of Server(s)</description>
+<column name="SERVER" number="0"/>
+<values><![CDATA[rO0ABXVyABRbW0xqYXZhLmxhbmcuU3RyaW5nOzJNCa2EMuRXAgAAeHAAAAABdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAXQADmt2cy11cy1uZW9sb2Fk]]></values>
+</variable-list>

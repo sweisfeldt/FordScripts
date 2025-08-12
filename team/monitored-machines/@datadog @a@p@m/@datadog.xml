@@ -1,0 +1,38 @@
+<connection-datadog
+    app-key="64eYmbtcgsQ+xbfOOcRq4QC5dC9NPvKvOHacrZt2e58HX4Tpw/V4mYgPvnPFwGAfjNg/Ehw13/c1MPtQDQwBYG/SlNMxZWA/OE4we+2IITw=$3"
+    interval="30000" name="Datadog"
+    push-monitors="USER_LOAD,DOWNLOADED_BYTES,REQUESTS_PER_SECOND,ERRORS,TRANSACTIONS_PER_SECOND"
+    send-events="true" server-address="https://api.datadoghq.com/"
+    server-port="0"
+    token="FXZ7VO/1mCVxyYSqP3++Muj02GH2ShUkQ02OhBCZgCKpITS9P+p3Nlt5W0xzE0r5Elg50fObzNbDXTx/o66da5Gbv+EVXw9x/LSj+vvo5X4=$3" uid="7e375f5a-343f-4058-bb16-46fbe16b602a">
+    <monitor-category name="Queries" short-display-name="Queries">
+        <monitor-datadog callTime="ON_BENCH" computing="0"
+            format="NUMBER" group-by="" legend-format="TheCUveName"
+            name="avg:container.cpu.usage{*}"
+            query="avg:container.cpu.usage{*}" sampling="0"
+            short-display-name="avg:container.cpu.usage{_}" unit=""/>
+        <monitor-datadog callTime="ON_BENCH" computing="0"
+            format="NUMBER" group-by="" legend-format="otherCurveName"
+            name="avg:container.cpu.limit{*}"
+            query="avg:container.cpu.limit{*}" sampling="0"
+            short-display-name="avg:container.cpu.limit{_}" unit=""/>
+        <monitor-datadog callTime="ON_BENCH" computing="0"
+            format="NUMBER"
+            group-by="custom_label_Prefix- container.cpu.usage with env:preprod"
+            legend-format="" name="sum:container.cpu.usage{env:preprod}"
+            query="sum:container.cpu.usage{env:preprod}" sampling="0"
+            short-display-name="sum:container.cpu.usage{env:preprod}" unit=""/>
+        <monitor-datadog callTime="ON_BENCH" computing="0"
+            format="NUMBER"
+            group-by="custom_label_Prefix- container.cpu.usage with env:staging"
+            legend-format="" name="sum:container.cpu.usage{env:staging}"
+            query="sum:container.cpu.usage{env:staging}" sampling="0"
+            short-display-name="sum:container.cpu.usage{env:staging}" unit=""/>
+        <monitor-datadog callTime="ON_BENCH" computing="0"
+            format="NUMBER"
+            group-by="custom_label_Prefix- container.cpu.usage with env:dev"
+            legend-format="" name="sum:container.cpu.usage{*}"
+            query="sum:container.cpu.usage{*}" sampling="0"
+            short-display-name="sum:container.cpu.usage{_}" unit=""/>
+    </monitor-category>
+</connection-datadog>

@@ -1,0 +1,19 @@
+# Project description file
+
+project.name=NL_Demo_Ford
+project.version=8.10
+project.original.version=4.2
+product.name=NeoLoad
+product.original.name=
+ssh.trustUnknownHosts.MONITORS=false
+monitor.tls.insecure=false
+product.original.version=
+project.workspace=65f0f966437ed53a6585073f
+project.test-settings=b8c92b7b-b55b-4e79-b8b9-b39cfbdd93b2
+project.test-settings-name=JSON_Test
+project.is-open-test-settings-after-upload=true
+project.id=b388a46e-e78e-457b-bddf-6035e5d250cd
+project.config.path=team
+project.config.storage=XML_MULTI
+team.server.enabled=true
+team.server.project=/sweisfeldt/FordScripts

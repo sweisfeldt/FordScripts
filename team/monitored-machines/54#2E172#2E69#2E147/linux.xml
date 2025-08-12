@@ -1,0 +1,160 @@
+<connection-ssh authentication="0" enabled="false" interval="5000"
+    login="root" name="linux" operatingSystem="1"
+    password="SZ+uvKg8DKBVY1xcwzMU2wOHvpIQCFrDfwR5UTgTIe4w8tZtViFWM0pYby4oTtIfMCHkHx63w/hLAGVWOlVzCw==$3"
+    private-key="" server-address="54.172.69.147" server-port="22" uid="dbaf7822-5ed1-44e7-958e-a61011d307d3">
+    <monitor-category name="System" short-display-name="System">
+        <simple-monitor-telnet callTime="ON_BENCH" category="0"
+            computing="0" format="NUMBER" monitor="1"
+            name="System/CPU User" sampling="0"
+            short-display-name="CPU User"
+            threshold="82699555-b9c1-4635-b8d1-1b412cf6e965" unit="%">
+            <description>Time spent running non-kernel code (user time, including nice time). Percentage of total CPU time.</description>
+        </simple-monitor-telnet>
+        <simple-monitor-telnet callTime="ON_BENCH" category="0"
+            computing="0" format="NUMBER" monitor="2"
+            name="System/CPU System" sampling="0"
+            short-display-name="CPU System" unit="%">
+            <description>Time spent running kernel code (system time). Percentage of total CPU time.</description>
+        </simple-monitor-telnet>
+        <simple-monitor-telnet callTime="ON_BENCH" category="0"
+            computing="0" format="NUMBER" monitor="3"
+            name="System/CPU Idle" sampling="0"
+            short-display-name="CPU Idle"
+            threshold="8c6da4b8-8963-4363-bb58-eafe6c4e86d6" unit="%">
+            <description>Time spent idle. Prior to Linux 2.5.41, this includes IO-wait time. Percentage of total CPU time.</description>
+        </simple-monitor-telnet>
+        <simple-monitor-telnet callTime="ON_BENCH" category="0"
+            computing="0" format="NUMBER" monitor="13"
+            name="System/Context switch count per CPU" sampling="0"
+            short-display-name="Context switch count per CPU"
+            threshold="a0157f9b-b838-457e-8de0-17d7f53d839d" unit="">
+            <description>Number of context switches per second per CPU.</description>
+        </simple-monitor-telnet>
+        <simple-monitor-telnet callTime="ON_BENCH" category="0"
+            computing="0" format="NUMBER" monitor="6"
+            name="System/Process Runnable" sampling="0"
+            short-display-name="Process Runnable" unit="">
+            <description>Number of processes waiting for run time</description>
+        </simple-monitor-telnet>
+        <simple-monitor-telnet callTime="ON_BENCH" category="0"
+            computing="0" format="NUMBER" monitor="12"
+            name="System/Process Runnable per CPU" sampling="0"
+            short-display-name="Process Runnable per CPU" unit="">
+            <description>Number of processes waiting for run time per CPU</description>
+        </simple-monitor-telnet>
+        <simple-monitor-telnet callTime="ON_BENCH" category="0"
+            computing="0" format="NUMBER" monitor="10"
+            name="System/Swap in" sampling="0"
+            short-display-name="Swap in"
+            threshold="7ce5ac5f-a254-4651-b86f-ca71175565c2" unit="">
+            <description>Amount of memory swapped in from disk (/s)</description>
+        </simple-monitor-telnet>
+    </monitor-category>
+    <monitor-category name="Memory" short-display-name="Memory">
+        <simple-monitor-telnet callTime="ON_BENCH" category="1"
+            computing="0" format="NUMBER" monitor="3"
+            name="Memory/Memory Free" sampling="0"
+            short-display-name="Memory Free" unit="">
+            <description>Is sum of LowFree+HighFree (overall stat)</description>
+        </simple-monitor-telnet>
+        <simple-monitor-telnet callTime="ON_BENCH" category="1"
+            computing="0" format="NUMBER" monitor="10"
+            name="Memory/% User Memory" sampling="0"
+            short-display-name="% User Memory"
+            threshold="507f370f-fc9b-423d-8c6d-e61bc3357530" unit="%">
+            <description>Percentage of used memory (% User Memory = User Memory / Memory Total * 100)</description>
+        </simple-monitor-telnet>
+        <simple-monitor-telnet callTime="ON_BENCH" category="1"
+            computing="0" format="NUMBER" monitor="8"
+            name="Memory/Swap Used" sampling="0"
+            short-display-name="Swap Used" unit="">
+            <description>Swap Total - Swap Free</description>
+        </simple-monitor-telnet>
+    </monitor-category>
+    <monitor-category name="TCP" short-display-name="TCP">
+        <tcp-monitor-telnet callTime="ON_BENCH" category="5"
+            computing="0" format="NUMBER" monitor="4"
+            name="TCP/% Segments retransmitted" sampling="0"
+            short-display-name="% Segments retransmitted"
+            threshold="70847b58-2700-48ff-9a78-11624898330c" unit="%">
+            <description>.</description>
+        </tcp-monitor-telnet>
+    </monitor-category>
+    <threshold enabled="true" uid="8c6da4b8-8963-4363-bb58-eafe6c4e86d6">
+        <threshold-condition durationKind="SECONDS" durationNumber="30"
+            operator="LESS_THAN" severity="LOW" valueMax="Infinity" valueMin="10.0">
+            <threshold-comment language="en">
+                <threshold-content>Global CPU high.</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>CPU global surchargé.</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+    </threshold>
+    <threshold enabled="true" uid="a0157f9b-b838-457e-8de0-17d7f53d839d">
+        <threshold-condition durationKind="SECONDS" durationNumber="30"
+            operator="GREATER_THAN" severity="LOW" valueMax="Infinity" valueMin="30000.0">
+            <threshold-comment language="en">
+                <threshold-content>High number of context switch per second.</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Nombre élevé de changement de contexte par seconde.</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+        <threshold-condition durationKind="SECONDS" durationNumber="30"
+            operator="GREATER_THAN" severity="HIGH" valueMax="Infinity" valueMin="60000.0">
+            <threshold-comment language="en">
+                <threshold-content>High number of context switch per second.</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Nombre élevé de changement de contexte par seconde.</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+    </threshold>
+    <threshold enabled="true" uid="7ce5ac5f-a254-4651-b86f-ca71175565c2">
+        <threshold-condition durationKind="SECONDS" durationNumber="30"
+            operator="GREATER_THAN" severity="LOW" valueMax="Infinity" valueMin="1.0">
+            <threshold-comment language="en">
+                <threshold-content>High Swap in, possible memory swap.</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Taille Swap in par seconde important, probable swap sur disque.</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+        <threshold-condition durationKind="SECONDS" durationNumber="30"
+            operator="GREATER_THAN" severity="HIGH" valueMax="Infinity" valueMin="10.0">
+            <threshold-comment language="en">
+                <threshold-content>High Swap in, possible memory swap.</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Taille Swap in par seconde important, probable swap sur disque.</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+    </threshold>
+    <threshold enabled="true" uid="507f370f-fc9b-423d-8c6d-e61bc3357530">
+        <threshold-condition durationKind="SECONDS" durationNumber="30"
+            operator="GREATER_THAN" severity="LOW" valueMax="Infinity" valueMin="95.0">
+            <threshold-comment language="en">
+                <threshold-content>High memory usage.</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Forte utilisation mémoire.</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+    </threshold>
+    <threshold enabled="true" uid="70847b58-2700-48ff-9a78-11624898330c">
+        <threshold-condition durationKind="SECONDS" durationNumber="15"
+            operator="GREATER_THAN" severity="HIGH" valueMax="Infinity" valueMin="12.0">
+            <threshold-comment language="en">
+                <threshold-content>Many retransmitted segments.</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Nombreux segments retransmis</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+    </threshold>
+    <threshold enabled="true" uid="82699555-b9c1-4635-b8d1-1b412cf6e965">
+        <threshold-condition durationKind="SECONDS" durationNumber="15"
+            operator="GREATER_THAN" severity="LOW" valueMax="Infinity" valueMin="50.0"/>
+    </threshold>
+</connection-ssh>

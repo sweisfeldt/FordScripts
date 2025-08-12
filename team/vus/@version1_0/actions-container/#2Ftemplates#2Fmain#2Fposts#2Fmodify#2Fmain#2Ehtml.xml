@@ -1,0 +1,123 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/templates/main/posts/modify/main.html"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@version1_0/%resources%/recorded-artifacts/97272e95-b1e7-4a63-a72f-9d3f186c2ee5.zip"
+    slaProfileEnabled="false" thinkTime="1931"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="97272e95-b1e7-4a63-a72f-9d3f186c2ee5">
+    <embedded-action>a6653455-0b9c-40e0-9d47-09dd9cead3d5</embedded-action>
+    <embedded-action>d8fcd3ab-9998-4320-8171-1d305315f213</embedded-action>
+    <embedded-action>1015a29b-f0eb-4fe1-8d9c-ad174f4b32d6</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_9bdcdd0c-392f-4e01-b06a-4f972a05f589.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    eTag="&quot;44-5418708f1ad80:dtagent10221210719140800mtBg&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 17 Nov 2016 22:51:49 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/templates/main/posts/modify/main.html"
+    path="/templates/main/posts/modify/main.html" postType="2"
+    recordedArtifactZipFileName="team/vus/@version1_0/%resources%/recorded-artifacts/97272e95-b1e7-4a63-a72f-9d3f186c2ee5.zip"
+    recordedResponseCode="200" responseSize="68" serverUid="TestServer"
+    slaProfileEnabled="false" uid="a6653455-0b9c-40e0-9d47-09dd9cead3d5" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_ab027ae6-cc61-4df2-9fb7-368a29d29815.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_ab027ae6-cc61-4df2-9fb7-368a29d29815.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Cookie" value="rxVisitor=1583330000296347P231VA41VF2P5T98066VRBJTHPHFA; dtSa=-; dtLatC=7; dtCookie=4$169C1047C750FB885E78E9C0B6BE9BFC|ea7c4b59f27d43eb|1; dtPC=4$530243823_780h43vLCKOKLJCFHDGGEAIINGOEPBKIKJOJPLB-0; rxvt=1583332051816|1583330144248"/>
+    <header name="Host" value="3.85.214.156"/>
+    <header name="Referer" value="http://3.85.214.156/posts/create/2"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36"/>
+    <header name="x-dtpc" value="4$530243823_780h43vLCKOKLJCFHDGGEAIINGOEPBKIKJOJPLB-0"/>
+    <header name="x-dtreferer" value="http://3.85.214.156/views/map"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Wed, 04 Mar 2020 13:57:29 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+Last-Modified: Thu, 17 Nov 2016 22:51:49 GMT&#xd;
+ETag: "44-5418708f1ad80:dtagent10185200219132536d4eI"&#xd;
+Accept-Ranges: bytes&#xd;
+X-OneAgent-JS-Injection: true&#xd;
+X-ruxit-JS-Agent: true&#xd;
+Content-Length: 68&#xd;
+Content-Type: text/html</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    enabled="false" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="OPTIONS" name="/platform/api/v3/posts"
+    path="/platform/api/v3/posts" postType="2"
+    recordedArtifactZipFileName="team/vus/@version1_0/%resources%/recorded-artifacts/97272e95-b1e7-4a63-a72f-9d3f186c2ee5.zip"
+    recordedResponseCode="200" responseSize="408" serverUid="TestServer"
+    slaProfileEnabled="false" uid="d8fcd3ab-9998-4320-8171-1d305315f213" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_b318bf0d-0bec-4211-a798-03aa18c5158e</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_b318bf0d-0bec-4211-a798-03aa18c5158e.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="order"
+        recordRawValue="desc" separator="=" value="desc" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="orderby"
+        recordRawValue="post_date" separator="=" value="post_date" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Authorization" value="Bearer oaPp2gg2hFLTbjPfrpPFCca5mdQvhE00hww8lJSi"/>
+    <header name="Cookie" value="rxVisitor=1583330000296347P231VA41VF2P5T98066VRBJTHPHFA; dtSa=-; dtLatC=7; dtCookie=4$169C1047C750FB885E78E9C0B6BE9BFC|ea7c4b59f27d43eb|1; dtPC=4$530243823_780h45vLCKOKLJCFHDGGEAIINGOEPBKIKJOJPLB-0; rxvt=1583332051916|1583330144248"/>
+    <header name="Host" value="3.85.214.156"/>
+    <header name="Origin" value="http://3.85.214.156"/>
+    <header name="Referer" value="http://3.85.214.156/posts/create/2"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36"/>
+    <header name="x-dtpc" value="4$530243823_780h44vLCKOKLJCFHDGGEAIINGOEPBKIKJOJPLB-0"/>
+    <header name="x-dtreferer" value="http://3.85.214.156/views/map"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Wed, 04 Mar 2020 13:57:29 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+X-Powered-By: PHP/7.0.31&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: Authorization, Content-type&#xd;
+Allow: POST, GET, PUT, DELETE, OPTIONS&#xd;
+Access-Control-Allow-Methods: POST, GET, PUT, DELETE, OPTIONS&#xd;
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+Content-Length: 70&#xd;
+Content-Type: application/json</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    enabled="false" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/platform/api/v3/forms/2"
+    path="/platform/api/v3/forms/2" postType="2"
+    recordedArtifactZipFileName="team/vus/@version1_0/%resources%/recorded-artifacts/97272e95-b1e7-4a63-a72f-9d3f186c2ee5.zip"
+    recordedResponseCode="200" responseSize="2111"
+    serverUid="TestServer" slaProfileEnabled="false"
+    uid="1015a29b-f0eb-4fe1-8d9c-ad174f4b32d6" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_42dc2365-0e7c-4494-abd5-777436e7de51</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_42dc2365-0e7c-4494-abd5-777436e7de51.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Authorization" value="Bearer oaPp2gg2hFLTbjPfrpPFCca5mdQvhE00hww8lJSi"/>
+    <header name="Cookie" value="rxVisitor=1583330000296347P231VA41VF2P5T98066VRBJTHPHFA; dtSa=-; dtLatC=7; dtCookie=4$169C1047C750FB885E78E9C0B6BE9BFC|ea7c4b59f27d43eb|1; dtPC=4$530243823_780h45vLCKOKLJCFHDGGEAIINGOEPBKIKJOJPLB-0; rxvt=1583332051919|1583330144248"/>
+    <header name="Host" value="3.85.214.156"/>
+    <header name="Referer" value="http://3.85.214.156/posts/create/2"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36"/>
+    <header name="x-dtpc" value="4$530243823_780h45vLCKOKLJCFHDGGEAIINGOEPBKIKJOJPLB-0"/>
+    <header name="x-dtreferer" value="http://3.85.214.156/views/map"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Wed, 04 Mar 2020 13:57:29 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+X-Powered-By: PHP/7.0.31&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: Authorization, Content-type&#xd;
+Allow: POST, GET, PUT, DELETE, OPTIONS&#xd;
+Access-Control-Allow-Methods: POST, GET, PUT, DELETE, OPTIONS&#xd;
+Content-Length: 497&#xd;
+Content-Type: application/json</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

@@ -1,0 +1,61 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/sap/bc/ui2/start_up"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@a@p @view @transaction/%resources%/recorded-artifacts/3c4b5591-c31b-42c8-83b8-14a782d3b627.zip"
+    slaProfileEnabled="false" thinkTime="215"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="3c4b5591-c31b-42c8-83b8-14a782d3b627">
+    <embedded-action>f39c4237-2e33-4175-bace-fbecc24bd1fc</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_693fda4d-fb8e-4347-a1b0-603de181e324.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Tue, 18 May 2021 10:37:45 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/sap/bc/ui2/start_up" path="/sap/bc/ui2/start_up"
+    postType="2"
+    recordedArtifactZipFileName="team/vus/@s@a@p @view @transaction/%resources%/recorded-artifacts/3c4b5591-c31b-42c8-83b8-14a782d3b627.zip"
+    recordedResponseCode="200" responseSize="905"
+    serverUid="sapdemo21.tricentis.com" slaProfileEnabled="false"
+    uid="f39c4237-2e33-4175-bace-fbecc24bd1fc" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_d00cc997-6b88-41dd-b7a1-9fea8aac278d</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_d00cc997-6b88-41dd-b7a1-9fea8aac278d.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="so"
+        recordRawValue="SalesInquiry" separator="=" value="SalesInquiry" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="action"
+        recordRawValue="create" separator="=" value="create" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="formFactor"
+        recordRawValue="desktop" separator="=" value="desktop" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="sap-language"
+        recordRawValue="EN" separator="=" value="EN" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="sap-client"
+        recordRawValue="100" separator="=" value="100" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="shellType"
+        recordRawValue="FLP" separator="=" value="FLP" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="depth"
+        recordRawValue="0" separator="=" value="0" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="sap-cache-id"
+        recordRawValue="05157A06A571766287B5984BA62B844B" separator="="
+        value="05157A06A571766287B5984BA62B844B" valueMode="USE_VALUE"/>
+    <header name="referer" value="https://sapdemo21.tricentis.com:44301/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html?sap-client=100&amp;sap-language=EN"/>
+    <header name="x-xhr-logon" value="accept=&quot;iframe,strict-window,window&quot;"/>
+    <header name="sap-language" value="EN"/>
+    <header name="cookie" value="sap-contextid=SID%3aANON%3aavm028002_S4H_00%3aHtrmA5OfYDAGcs6E1DnHocEcCXAz-GGmjhTXmHO3-NEW; _mkto_trk=id:470-GZN-442&amp;token:_mch-tricentis.com-1616053010726-90484; _gcl_au=1.1.2037278143.1616053008; _ga=GA1.1.1968461694.1593860611; _ga_489D1QT6C1=GS1.1.1616053007.1.0.1616053007.0; sap-usercontext=sap-language=EN&amp;sap-client=100; MYSAPSSO2=${SAP_SSO_Token}; SAP_SESSIONID_S4H_100=${SAP_SessionID}"/>
+    <header name="accept-language" value="en-SG,en-US;q=0.7,en;q=0.3"/>
+    <header name="x-requested-with" value="XMLHttpRequest"/>
+    <header name="sap-client" value="100"/>
+    <header name="accept-encoding" value="gzip, deflate"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="accept" value="application/json"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: application/json; charset=utf-8&#xd;
+content-length: 905&#xd;
+cache-control: max-age=29030400&#xd;
+last-modified: Tue, 18 May 2021 10:31:57 GMT&#xd;
+sap-server: true&#xd;
+date: Wed, 19 May 2021 00:28:08 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

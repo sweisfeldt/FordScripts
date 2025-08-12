@@ -1,0 +1,17 @@
+<custom-action actionType="SQL Connection" isHit="false"
+    name="sql_connection" uid="bf28c395-a630-4207-943b-08201179e1bd">
+    <description>This action connects to a SQL database.
+Possible parameters are:
+- connectionName: (required) the name of the connection to map with other advanced actions.
+- connectionURL: (required) the JDBC connection URL (jdbc:mysql://localhost:3306/).
+- connection.user: (optional) the user name to connect the DB.
+- connection.password: (optional) the password of the user.
+- connection.&lt;propertyName&gt;: (optional) a connection property.
+- driverClassName: (optional) fully qualified name of a custom driver class. NeoLoad embeds drivers for Oracle, MS SQL Server, MySQL and PostgreSQL.</description>
+    <custom-action-parameter name="connectionName" type="TEXT" value="myConnection"/>
+    <custom-action-parameter name="connectionURL" type="TEXT" value="jdbc:sqlserver://db01.raleigh.tryonsolutions.com:1433"/>
+    <custom-action-parameter name="connection.user" type="TEXT" value="tosca"/>
+    <encrypted-custom-action-parameter name="connection.password"
+        type="PASSWORD" value="jU1MuapS6Qw/Kn4VVoWZq11yBO91G/SE7Ye8OnYcpbXbbZ0fK0C2Gx6hPPBjMJaM$3"/>
+    <responsePageFileDescription>team/vus/db/%resources%/recorded-responses/res_bf28c395-a630-4207-943b-08201179e1bd</responsePageFileDescription>
+</custom-action>

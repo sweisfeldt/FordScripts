@@ -1,0 +1,5 @@
+<variable-file delimiters=";" filename="list_capital.0.csv" name="Coord" offset="1" order="2" policy="5" range="1" uid="469e9802-8747-44cf-b50b-501f1de9697e" useFirstLine="true" whenOutOfValues="CYCLE_VALUES">
+<column name="Pays" number="0"/>
+<column name="latitude" number="1"/>
+<column name="longitude" number="2"/>
+</variable-file>

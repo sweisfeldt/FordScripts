@@ -1,0 +1,35 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/favicon.ico"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@a@p @view @transaction/%resources%/recorded-artifacts/5a671a56-4a5f-4e23-92b4-596e9f579fda.zip"
+    slaProfileEnabled="false" thinkTime="239"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="5a671a56-4a5f-4e23-92b4-596e9f579fda">
+    <embedded-action>f3c36b14-2522-4068-bae1-1ab91a36174f</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_c8132a2e-2b82-406c-854e-d886b0d00989.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/favicon.ico" path="/favicon.ico" postType="2"
+    recordedArtifactZipFileName="team/vus/@s@a@p @view @transaction/%resources%/recorded-artifacts/5a671a56-4a5f-4e23-92b4-596e9f579fda.zip"
+    recordedResponseCode="503" responseSize="9668"
+    serverUid="sapdemo21.tricentis.com" slaProfileEnabled="false"
+    uid="f3c36b14-2522-4068-bae1-1ab91a36174f" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_f324da92-d4fe-4f7b-9e78-b9506bdc2aac.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_f324da92-d4fe-4f7b-9e78-b9506bdc2aac.txt</requestContentFileDescription>
+    <header name="cookie" value="_mkto_trk=id:470-GZN-442&amp;token:_mch-tricentis.com-1616053010726-90484; _gcl_au=1.1.2037278143.1616053008; _ga=GA1.1.1968461694.1593860611; _ga_489D1QT6C1=GS1.1.1616053007.1.0.1616053007.0; sap-usercontext=sap-language=EN&amp;sap-client=100; MYSAPSSO2=${SAP_SSO_Token}; SAP_SESSIONID_S4H_100=${SAP_SessionID}"/>
+    <header name="accept-encoding" value="gzip, deflate"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="accept" value="*/*"/>
+    <responseHeaders>HTTP/2.0 503&#xd;
+date: Wed, 19 May 2021 00:28:08 GMT&#xd;
+pragma: no-cache&#xd;
+content-length: 9668&#xd;
+content-type: text/html&#xd;
+x-sap-icm-err-id: ICMENOSYSTEMFOUND&#xd;
+sap-err-id: ICMENOSYSTEMFOUND</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

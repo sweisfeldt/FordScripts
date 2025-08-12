@@ -1,0 +1,46 @@
+<lg-host browserBasedSupport="false" citrixSupport="false"
+    hostname="DESKTOP-I9FJ24U.fios-router.home:7100" loadWeight="1"
+    sapSupport="false" standalone="false" supportWANEmulation="false"
+    uid="35ee95dd-0a7e-49eb-bb05-250f5e59a9d1" version="8.2.0;build=20220506-29">
+    <!--****** LG NETWORK INTERFACES ******-->
+    <lg-networkiface
+        description="Qualcomm QCA9565 802.11b/g/n Wireless Adapter"
+        enabled="false" isLoopBack="false" name="wlan1">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:bd84:984c:ee8:c277%wlan1">
+            <ip value="fe80:0:0:0:bd84:984c:ee8:c277%wlan1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Bluetooth Device (Personal Area Network) #3"
+        enabled="false" isLoopBack="false" name="eth6">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:c42f:415a:4ed1:a401%eth6">
+            <ip value="fe80:0:0:0:c42f:415a:4ed1:a401%eth6"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="Software Loopback Interface 1"
+        enabled="false" isLoopBack="true" name="lo">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="127.0.0.1">
+            <ip value="127.0.0.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="0:0:0:0:0:0:0:1">
+            <ip value="0:0:0:0:0:0:0:1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="Realtek PCIe GBE Family Controller"
+        enabled="false" isLoopBack="false" name="eth0">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="desktop-i9fj24u.fios-router.home">
+            <ip value="192.168.1.231"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:5516:a110:4d5c:d9b0%eth0">
+            <ip value="fe80:0:0:0:5516:a110:4d5c:d9b0%eth0"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+</lg-host>

@@ -1,0 +1,16 @@
+<custom-action actionType="SapClose" isHit="true"
+    name="Close GuiMainWindow (Create Sales Order: Initial Screen)" uid="502c168c-8ec6-4280-8d56-d39d17ab649f">
+    <description>This action simulates a close action on an SAP window or an SAP dialog.
+
+Possible parameters are:&#xd;
+- objectId (optional): The SAP GUI object identifier. Default value is "ses[0]/wnd[0]/".&#xd;
+- ignoreErrors (optional): If set to "true", the action won't be in error if object is not found, type is not supported or an exception is thrown. Default value is "false".&#xd;
+- windowId (optional): The SAP GUI window identifier.&#xd;
+- objectName (optional): The SAP GUI object name.&#xd;
+- objectType (optional): The SAP GUI object type.</description>
+    <custom-action-parameter name="objectId" type="TEXT" value="ses[0]/wnd[0]"/>
+    <custom-action-parameter name="objectName" type="TEXT" value="wnd[0]"/>
+    <custom-action-parameter name="objectType" type="TEXT" value="GuiMainWindow"/>
+    <responsePageFileDescription>team/vus/@s@a@p_@user_@g/%resources%/recorded-responses/res_e932ce77-021c-433e-85a9-6e2da81d4a91</responsePageFileDescription>
+    <screenshotFileDescription>team/vus/@s@a@p_@user_@g/%resources%/recorded-screenshots/sc_e932ce77-021c-433e-85a9-6e2da81d4a91.jpg</screenshotFileDescription>
+</custom-action>

@@ -1,0 +1,5 @@
+<monitored-host enabled="false" host-name="54.172.69.147"
+    mehost-name="localhost" proxy-id="" uid="54.172.69.147">
+    <embedded-action>dbaf7822-5ed1-44e7-958e-a61011d307d3</embedded-action>
+    <embedded-action>9d1e2b9d-f573-44b4-90d0-4eb109db243e</embedded-action>
+</monitored-host>

@@ -1,0 +1,43 @@
+POST https://activity.windows.com/v3/feeds/me/activities HTTP/1.1
+Content-Length: 1184
+Content-Type: application/json
+X-AFS-CV: ZGtGi8p4NhHIOTRu.0.1.0
+X-AFS-Scenario: 16
+
+[
+   {
+      "__schemaVersion" : 1,
+      "activityId" : "424D2E8A-D46F-56D7-A170-7E2B37DC227C",
+      "appActivityId" : "ECB32AF3-1440-4086-94E3-5311F97F89C4",
+      "appId" : {
+         "alternateId" : "",
+         "packageId" : "MSEdge",
+         "windows_win32" : "MSEdge"
+      },
+      "applicationId" : [
+         {
+            "application" : "MSEdge",
+            "platform" : "windows_win32"
+         },
+         {
+            "application" : "MSEdge",
+            "platform" : "packageId"
+         },
+         {
+            "application" : "",
+            "platform" : "alternateId"
+         }
+      ],
+      "endTime" : "2025-04-03T18:17:59.000Z",
+      "groupIds" : "Copy",
+      "lastModifiedOnClient" : "2025-04-03T18:17:59.000Z",
+      "parentActivityId" : "8CF24FCF-9C7A-E0A3-5436-6A529CDA3FCD",
+      "payload" : "eyJnZHByVHlwZSI6IlByb2R1Y3RBbmRTZXJ2aWNlVXNhZ2UiLCJjbGlwYm9hcmREYXRhSWQiOiJ7OUU2NjJFM0EtMzRGQi00RjJELUFGQzgtQjg3NjFFNEY5NDZEfSJ9",
+      "platformDeviceId" : "vogGKBPfbohJCS7O5ExmlR6Wo1jsxovlrak11mA3Jcw=",
+      "priority" : 3,
+      "read" : false,
+      "startTime" : "2025-04-03T18:17:59.000Z",
+      "type" : 16,
+      "userActionState" : 0
+   }
+]

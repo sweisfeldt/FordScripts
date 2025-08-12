@@ -1,0 +1,21 @@
+<custom-action actionType="Connect" isHit="true" name="connect" uid="e2a90b5e-a35d-4349-8ca7-0e8b01af3218">
+    <description>Connects to a topic or a queue.
+
+Possible parameters are:&#xd;
+- initialContextFactory (required): The fully qualified class name of the factory class that will create the initial context.&#xd;
+- providerURL (required): The URL of the JMS provider.&#xd;
+- connectionFactory (required): The name of the connection factory.&#xd;
+- destination (required): The JNDI name of the (topic or queue) destination. It's used as the connection ID. A Virtual User cannot have two connections to a same destination.&#xd;
+- username (optional): The username used to create the connection.&#xd;
+- password (optional): The password used to create the connection.&#xd;
+- sessionTransacted (optional): A boolean to indicate whether the session is transacted. Default value is "false".&#xd;
+- acknowledgeMode (optional): Indicates whether the consumer or the client will acknowledge any messages it receives; ignored if the session is transacted. Legal values: AUTO_ACKNOWLEDGE, CLIENT_ACKNOWLEDGE or DUPS_OK_ACKNOWLEDGE. Default value is "AUTO_ACKNOWLEDGE".&#xd;
+- jndiProperties (optional): JNDI properties to construct the initial context. The value must follow the pattern name=value separated by '\n'. Example: datasource=jdbc/aqjmsuserDataSource.</description>
+    <custom-action-parameter name="initialContextFactory" type="TEXT" value="weblogic.jndi.WLInitialContextFactory"/>
+    <custom-action-parameter name="providerURL" type="TEXT" value="t3:/10.0.4.52:7001"/>
+    <custom-action-parameter name="connectionFactory" type="TEXT" value="ConnectionFactory-Topic"/>
+    <custom-action-parameter name="destination" type="TEXT" value="jms/topic"/>
+    <custom-action-parameter name="username" type="TEXT" value="test"/>
+    <encrypted-custom-action-parameter name="password" type="PASSWORD" value="UcA1GnY00e2RsWU03icKZ13QlTK83gfXiZSOdXa+I75/ImyEmZsqFjTeQUEY1AuR$3"/>
+    <responsePageFileDescription>team/vus/@j@m@s_@user/%resources%/recorded-responses/res_e2a90b5e-a35d-4349-8ca7-0e8b01af3218</responsePageFileDescription>
+</custom-action>

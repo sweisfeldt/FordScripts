@@ -1,0 +1,53 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/sap/opu/odata/sap/ESH_SEARCH_SRV/SuggestionsQueries"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@a@p @view @transaction/%resources%/recorded-artifacts/77027373-d18b-485d-aee1-1fca7ae9ce07.zip"
+    slaProfileEnabled="false" thinkTime="3236"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="77027373-d18b-485d-aee1-1fca7ae9ce07">
+    <embedded-action>f23cf59e-4761-473f-a5ea-8e54ff9d409e</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_98d3b97e-ff36-48f3-8d1a-19a1a6016e73.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST"
+    name="/sap/opu/odata/sap/ESH_SEARCH_SRV/SuggestionsQueries"
+    path="/sap/opu/odata/sap/ESH_SEARCH_SRV/SuggestionsQueries"
+    postType="4"
+    recordedArtifactZipFileName="team/vus/@s@a@p @view @transaction/%resources%/recorded-artifacts/77027373-d18b-485d-aee1-1fca7ae9ce07.zip"
+    recordedResponseCode="201" responseSize="1488"
+    serverUid="sapdemo21.tricentis.com" slaProfileEnabled="false"
+    uid="f23cf59e-4761-473f-a5ea-8e54ff9d409e" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_0ddfcd34-3da6-4c7f-8530-8ed8ed064930</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_0ddfcd34-3da6-4c7f-8530-8ed8ed064930.txt</requestContentFileDescription>
+    <header name="referer" value="https://sapdemo21.tricentis.com:44301/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html?sap-client=100&amp;sap-language=EN"/>
+    <header name="x-xhr-logon" value="accept=&quot;iframe,strict-window,window&quot;"/>
+    <header name="cookie" value="_mkto_trk=id:470-GZN-442&amp;token:_mch-tricentis.com-1616053010726-90484; _gcl_au=1.1.2037278143.1616053008; _ga=GA1.1.1968461694.1593860611; _ga_489D1QT6C1=GS1.1.1616053007.1.0.1616053007.0; sap-usercontext=sap-language=EN&amp;sap-client=100; MYSAPSSO2=${SAP_SSO_Token}; SAP_SESSIONID_S4H_100=${SAP_SessionID}"/>
+    <header name="accept-language" value="en-SG,en-US;q=0.7,en;q=0.3"/>
+    <header name="accept" value="application/json"/>
+    <header name="sap-perf-fesrec-opt" value="siness.tiles.numeric,shell-header_click,,ie_11,7471,7512,,,0,,,,,,0,,2,,20210519002748794,ssuite.smartbusiness.tiles.numeric"/>
+    <header name="x-requested-with" value="XMLHttpRequest"/>
+    <header name="sap-perf-fesrec" value="7E403A265EBE4972BC602EAA40D60288,3D051BDA406C46478689424EA374BAF2,292,2760,151,14,shell-header_click_1,204,2949,win_10,SAP_UI5"/>
+    <header name="sap-passport" value="2A54482A0300E600002E757368656C6C2E72656E6465726572732E66696F72693240312E37312E313800005341505F4532455F54415F5573657220202020202020202020202020202020207365617263684669656C64496E5368656C6C2D696E7075745F6B657970726573735F32202020202000052E757368656C6C2E72656E6465726572732E66696F72693240312E37312E3138433143343136414431463346343031324241314242363444444144314330443320202000077E403A265EBE4972BC602EAA40D602880000000000000000000000000000000000000000000000E22A54482A"/>
+    <header name="x-csrf-token" value="${SAP_CSRF_Token}"/>
+    <header name="content-type" value="application/json"/>
+    <header name="cache-control" value="no-cache"/>
+    <header name="accept-encoding" value="gzip, deflate"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/2.0 201&#xd;
+content-type: application/json; charset=utf-8&#xd;
+content-length: 469&#xd;
+location: https://sapdemo21.tricentis.com:44301/sap/opu/odata/sap/ESH_SEARCH_SRV/SuggestionsQueries('1')&#xd;
+dataserviceversion: 2.0&#xd;
+sap-processing-info: ODataBEP=,crp=,RAL=,st=,MedCacheHub=SHM,codeployed=X,softstate=&#xd;
+sap-server: true&#xd;
+sap-perf-fesrec: 52386.000000&#xd;
+content-encoding: gzip</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"d":{"Id":"1","SuggestionInput":"Sa","IncludeAttributeSuggestions":false,"IncludeHistorySuggestions":true,"IncludeDataSourceSuggestions":false,"DetailLevel":1,"QueryOptions":{"Top":20,"Skip":0,"SearchType":"S","SearchTerms":"","ClientSessionID":"9E33AEBA24F94D59ACADC88BD77127FC","ClientCallTimestamp":"\\/Date(1621384075728)\\/"},"DataSources":[{"Id":"<All>","Type":"Category"}],"Suggestions":[],"ExecutionDetails":[]}}]]></textPostContent>
+</http-action>

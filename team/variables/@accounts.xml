@@ -1,0 +1,15 @@
+<variable-file delimiters=";" filename="accounts.0.csv" name="Accounts" offset="1" order="3" policy="3" range="1" uid="aaabc321-464d-4b88-a983-4ebc5439fae8" useFirstLine="true" whenOutOfValues="CYCLE_VALUES">
+<column name="City" number="9"/>
+<column name="Country" number="12"/>
+<column name="State" number="10"/>
+<column name="Zip" number="11"/>
+<column name="address1" number="7"/>
+<column name="address2" number="8"/>
+<column name="card number" number="3"/>
+<column name="cardtype" number="2"/>
+<column name="expiration" number="4"/>
+<column name="firstname" number="5"/>
+<column name="lastname" number="6"/>
+<column name="login" number="0"/>
+<column name="password" number="1"/>
+</variable-file>

@@ -1,0 +1,43 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/sap/public/icmandir/its/ls/theming/~cache-100/Base/baseLib/sap_belize/fonts/SAP-icons.woff"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@a@p @view @transaction/%resources%/recorded-artifacts/edac4bb2-fe7c-4d37-a48d-6979fb7fef93.zip"
+    slaProfileEnabled="false" thinkTime="1073"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="edac4bb2-fe7c-4d37-a48d-6979fb7fef93">
+    <embedded-action>d597c355-d667-450c-8493-873c0bbec2dc</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_377e18d1-6ec5-49a5-9a35-b734d6ee3b30.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/x-font-woff"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Tue, 19 Nov 2019 10:28:56 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/sap/public/icmandir/its/ls/theming/~cache-100/Base/baseLib/sap_belize/fonts/SAP-icons.woff"
+    path="/sap/public/icmandir/its/ls/theming/~cache-100/Base/baseLib/sap_belize/fonts/SAP-icons.woff"
+    postType="2"
+    recordedArtifactZipFileName="team/vus/@s@a@p @view @transaction/%resources%/recorded-artifacts/edac4bb2-fe7c-4d37-a48d-6979fb7fef93.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="sapdemo21.tricentis.com" slaProfileEnabled="false"
+    uid="d597c355-d667-450c-8493-873c0bbec2dc" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_0854b72b-727e-4a3b-99ae-49780eef052a</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_c3f96902-b61f-43af-b866-5b76d4e19877.txt</requestContentFileDescription>
+    <header name="referer" value="https://sapdemo21.tricentis.com:44301/sap/bc/gui/sap/its/webgui;~service=3200;~rfcHostName=avm028002.internal.cloudapp.net?~transaction=VA11&amp;~nosplash=1&amp;sap-client=100&amp;sap-language=EN&amp;sap-ui-tech-hint=GUI&amp;sap-ie=edge&amp;sap-theme=sap_belize&amp;sap-target-navmode=explace&amp;sap-touch=0&amp;sap-shell=FLP1.71.20"/>
+    <header name="cookie" value="_mkto_trk=id:470-GZN-442&amp;token:_mch-tricentis.com-1616053010726-90484; _gcl_au=1.1.2037278143.1616053008; _ga=GA1.1.1968461694.1593860611; _ga_489D1QT6C1=GS1.1.1616053007.1.0.1616053007.0; sap-usercontext=sap-language=EN&amp;sap-client=100; MYSAPSSO2=${SAP_SSO_Token}; SAP_SESSIONID_S4H_100=${SAP_SessionID}"/>
+    <header name="accept-language" value="en-SG,en-US;q=0.7,en;q=0.3"/>
+    <header name="origin" value="https://sapdemo21.tricentis.com:44301"/>
+    <header name="accept-encoding" value="gzip, deflate"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="accept" value="*/*"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: application/x-font-woff&#xd;
+last-modified: Tue, 19 Nov 2019 10:28:56 GMT&#xd;
+cache-control: max-age=31536000&#xd;
+content-length: 128429&#xd;
+content-encoding: gzip&#xd;
+date: Wed, 19 May 2021 00:28:14 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

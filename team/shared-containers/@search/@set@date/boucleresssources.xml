@@ -1,0 +1,3 @@
+<loop-action loop="${Ressources_matchNr}" name="boucleresssources" uid="e3aa0e55-2d5d-4ff8-84c4-f1f943ff0335">
+    <embedded-action>66c9de31-80d8-48c0-8bbc-b2241a74a041</embedded-action>
+</loop-action>

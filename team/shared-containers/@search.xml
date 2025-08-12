@@ -1,0 +1,11 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Search" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="a8e56fde-9b9a-4588-99ca-2c170cf20fc7" weightsEnabled="false">
+    <weighted-embedded-action uid="bdff8841-0f8f-40b5-abbd-f0f6182a78c8"/>
+    <weighted-embedded-action uid="ece2f981-c146-4ddf-957c-fa8b3be13cf4"/>
+    <weighted-embedded-action uid="ba986e58-4d14-47d5-87de-3431c26cff13"/>
+    <weighted-embedded-action uid="dca25243-206b-4d09-9d62-9986b8832a85"/>
+    <weighted-embedded-action uid="efb22824-1145-4286-b9fc-67da11f2b937"/>
+</basic-logical-action-container>
+<shared-element>a8e56fde-9b9a-4588-99ca-2c170cf20fc7</shared-element>

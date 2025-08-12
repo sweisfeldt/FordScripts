@@ -1,0 +1,3 @@
+<variable-file delimiters=";" filename="variables/UseCase112.txt" name="usecase112" offset="1" order="2" policy="5" range="1" uid="0e2487a5-7efa-492a-b37b-c7b22de9c0f6" useFirstLine="true" whenOutOfValues="CYCLE_VALUES">
+<column name="USERACCOUNTNM" number="0"/>
+</variable-file>

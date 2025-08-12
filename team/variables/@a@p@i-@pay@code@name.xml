@@ -1,0 +1,5 @@
+<variable-list name="API-PayCodeName" offset="1" order="2" policy="4" range="1" uid="e94936ea-0888-4247-9aea-cc79b2379bbd" whenOutOfValues="CYCLE_VALUES">
+<description>fill in with popular Pay Code Names, used by add Pay Code Edit VU</description>
+<column name="PayCodeName" number="0"/>
+<values><![CDATA[rO0ABXVyABRbW0xqYXZhLmxhbmcuU3RyaW5nOzJNCa2EMuRXAgAAeHAAAAAFdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAXQAB1JlZ3VsYXJ1cQB+AAIAAAABdAALRG91YmxlIFRpbWV1cQB+AAIAAAABdAAIT3ZlcnRpbWV1cQB+AAIAAAABdAAIUGVyc29uYWx1cQB+AAIAAAABdAAEU2ljaw==]]></values>
+</variable-list>

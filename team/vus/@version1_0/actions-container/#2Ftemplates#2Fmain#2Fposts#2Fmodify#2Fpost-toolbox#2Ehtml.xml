@@ -1,0 +1,49 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/templates/main/posts/modify/post-toolbox.html"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@version1_0/%resources%/recorded-artifacts/0285893b-76f1-401a-b491-768fc911ac6c.zip"
+    slaProfileEnabled="false" thinkTime="88"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="0285893b-76f1-401a-b491-768fc911ac6c">
+    <embedded-action>a04eec5b-30f1-49a9-a749-53c2ef4a36b7</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_6d66f37c-5dc6-4453-b0cb-6fc1a36d8d63.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    eTag="&quot;1312-5418708f1ad80-gzip:dtagent10221210719140800mtBg&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 17 Nov 2016 22:51:49 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/templates/main/posts/modify/post-toolbox.html"
+    path="/templates/main/posts/modify/post-toolbox.html" postType="2"
+    recordedArtifactZipFileName="team/vus/@version1_0/%resources%/recorded-artifacts/0285893b-76f1-401a-b491-768fc911ac6c.zip"
+    recordedResponseCode="200" responseSize="4882"
+    serverUid="TestServer" slaProfileEnabled="false"
+    uid="a04eec5b-30f1-49a9-a749-53c2ef4a36b7" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_adac34a9-ae7b-4eec-9e92-36e0ad94ee6d.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_adac34a9-ae7b-4eec-9e92-36e0ad94ee6d.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Cookie" value="rxVisitor=1583330000296347P231VA41VF2P5T98066VRBJTHPHFA; dtSa=-; dtLatC=1; dtCookie=4$169C1047C750FB885E78E9C0B6BE9BFC|ea7c4b59f27d43eb|1; dtPC=4$530243823_780h50vLCKOKLJCFHDGGEAIINGOEPBKIKJOJPLB-0; rxvt=1583332052123|1583330144248"/>
+    <header name="Host" value="3.85.214.156"/>
+    <header name="Referer" value="http://3.85.214.156/posts/create/2"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36"/>
+    <header name="x-dtpc" value="4$530243823_780h47vLCKOKLJCFHDGGEAIINGOEPBKIKJOJPLB-0"/>
+    <header name="x-dtreferer" value="http://3.85.214.156/views/map"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Wed, 04 Mar 2020 13:57:29 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+Last-Modified: Thu, 17 Nov 2016 22:51:49 GMT&#xd;
+ETag: "1312-5418708f1ad80-gzip:dtagent10185200219132536d4eI"&#xd;
+Accept-Ranges: bytes&#xd;
+X-OneAgent-JS-Injection: true&#xd;
+X-ruxit-JS-Agent: true&#xd;
+Vary: Accept-Encoding&#xd;
+Content-Type: text/html&#xd;
+X-Content-Encoding-Over-Network: gzip&#xd;
+Transfer-Encoding: chunked</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

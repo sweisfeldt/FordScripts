@@ -1,0 +1,5 @@
+<variable-list name="APIAccess" offset="1" order="3" policy="3" range="1" uid="84cd9cb1-c031-46cb-b994-2d8ded094ca9" whenOutOfValues="CYCLE_VALUES">
+<column name="password" number="1"/>
+<column name="username" number="0"/>
+<values><![CDATA[rO0ABXVyABRbW0xqYXZhLmxhbmcuU3RyaW5nOzJNCa2EMuRXAgAAeHAAAAABdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAnQACVN1cGVyVXNlcnQABmRldjEyMw==]]></values>
+</variable-list>

@@ -1,0 +1,740 @@
+<connection-tomcat domain="Catalina" interval="5000" login=""
+    name="tomcat"
+    password="3ggGii0EDhHSoxaX96aONbNOIvDmVt6pxCnHi5bq561ouojtliTPK39Xa+cE7tTO$3"
+    server-address="192.168.2.99" server-port="9004" uid="3a59af10-2d48-4244-8e8f-46c7061a44f2">
+    <monitor-category name="Session" short-display-name="Session">
+        <monitor-category name="localhost" short-display-name="localhost">
+            <monitor-category name="/jpetstore" short-display-name="/jpetstore">
+                <monitor-jmx attribute="activeSessions"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="8" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.activesessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//jpetstore/activeSessions"
+                    object-name="Catalina:host=localhost,path=/jpetstore,type=Manager"
+                    path="Session/localhost//jpetstore/activeSessions"
+                    sampling="0" short-display-name="activeSessions" unit="">
+                    <description>Number of active sessions at this moment</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="rejectedSessions"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="8" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.rejectedsessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//jpetstore/rejectedSessions"
+                    object-name="Catalina:host=localhost,path=/jpetstore,type=Manager"
+                    path="Session/localhost//jpetstore/rejectedSessions"
+                    sampling="0" short-display-name="rejectedSessions" unit="">
+                    <description>Number of sessions tomcat rejected since last call due to maxActive being reached</description>
+                </monitor-jmx>
+                <monitor-virtual attribute="% rejectedSessions"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="8" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.%.rejectedsessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//jpetstore/% rejectedSessions"
+                    object-name="Catalina:host=localhost,path=/jpetstore,type=Manager"
+                    operator="%"
+                    path="Session/localhost//jpetstore/% rejectedSessions"
+                    sampling="0" short-display-name="% rejectedSessions"
+                    threshold="c367ca91-4564-486a-8081-9dcbf5498a29" unit="%">
+                    <description>Percentage of tomcat sessions rejected since last call due to maxActive being reached</description>
+                    <monitor-jmx attribute="rejectedSessions"
+                        callTime="ON_BENCH" computing="1"
+                        connection-type="8" format="NUMBER" monitor="0"
+                        monitorType=""
+                        name="Session/localhost//jpetstore/rejectedSessions"
+                        object-name="Catalina:host=localhost,path=/jpetstore,type=Manager"
+                        path="Session/localhost//jpetstore/rejectedSessions"
+                        sampling="0"
+                        short-display-name="rejectedSessions" unit=""/>
+                    <monitor-jmx attribute="sessionCounter"
+                        callTime="ON_BENCH" computing="1"
+                        connection-type="8" format="NUMBER" monitor="0"
+                        monitorType=""
+                        name="Session/localhost//jpetstore/sessionCounter"
+                        object-name="Catalina:host=localhost,path=/jpetstore,type=Manager"
+                        path="Session/localhost//jpetstore/sessionCounter"
+                        sampling="0" short-display-name="sessionCounter" unit=""/>
+                </monitor-virtual>
+                <monitor-jmx attribute="expiredSessions"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="8" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.expiredsessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//jpetstore/expiredSessions"
+                    object-name="Catalina:host=localhost,path=/jpetstore,type=Manager"
+                    path="Session/localhost//jpetstore/expiredSessions"
+                    sampling="0" short-display-name="expiredSessions" unit="">
+                    <description>Number of sessions that expired ( does not include explicit invalidations ) since last call</description>
+                </monitor-jmx>
+            </monitor-category>
+        </monitor-category>
+    </monitor-category>
+    <monitor-category name="RequestProcessor" short-display-name="RequestProcessor">
+        <monitor-category name="http-8080" short-display-name="http-8080">
+            <monitor-jmx attribute="errorCount" callTime="ON_BENCH"
+                computing="1" connection-type="8" format="NUMBER"
+                helpID="reference.design.monitors.tomcat.requestprocessor.errorcount"
+                monitor="0" monitorType=""
+                name="RequestProcessor/http-8080/errorCount"
+                object-name="Catalina:name=http-8080,type=GlobalRequestProcessor"
+                path="RequestProcessor/http-8080/errorCount"
+                sampling="0" short-display-name="errorCount" unit="">
+                <description>Number of errors since last call</description>
+            </monitor-jmx>
+            <monitor-virtual attribute="% errorCount"
+                callTime="ON_BENCH" computing="0" connection-type="8"
+                format="NUMBER"
+                helpID="reference.design.monitors.tomcat.requestprocessor.%.errorcount"
+                monitor="0" monitorType=""
+                name="RequestProcessor/http-8080/% errorCount"
+                object-name="Catalina:name=http-8080,type=GlobalRequestProcessor"
+                operator="%"
+                path="RequestProcessor/http-8080/% errorCount"
+                sampling="0" short-display-name="% errorCount"
+                threshold="6ec9ac21-27c3-4e1c-8397-15394925a908" unit="%">
+                <description>Percentage of errors since last call</description>
+                <monitor-jmx attribute="errorCount" callTime="ON_BENCH"
+                    computing="1" connection-type="8" format="NUMBER"
+                    monitor="0" monitorType=""
+                    name="RequestProcessor/http-8080/errorCount"
+                    object-name="Catalina:name=http-8080,type=GlobalRequestProcessor"
+                    path="RequestProcessor/http-8080/errorCount"
+                    sampling="0" short-display-name="errorCount" unit=""/>
+                <monitor-jmx attribute="requestCount"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="8" format="NUMBER" monitor="0"
+                    monitorType=""
+                    name="RequestProcessor/http-8080/requestCount"
+                    object-name="Catalina:name=http-8080,type=GlobalRequestProcessor"
+                    path="RequestProcessor/http-8080/requestCount"
+                    sampling="0" short-display-name="requestCount" unit=""/>
+            </monitor-virtual>
+        </monitor-category>
+        <monitor-category name="jk-8009" short-display-name="jk-8009">
+            <monitor-jmx attribute="errorCount" callTime="ON_BENCH"
+                computing="1" connection-type="8" format="NUMBER"
+                helpID="reference.design.monitors.tomcat.requestprocessor.errorcount"
+                monitor="0" monitorType=""
+                name="RequestProcessor/jk-8009/errorCount"
+                object-name="Catalina:name=jk-8009,type=GlobalRequestProcessor"
+                path="RequestProcessor/jk-8009/errorCount" sampling="0"
+                short-display-name="errorCount" unit="">
+                <description>Number of errors since last call</description>
+            </monitor-jmx>
+            <monitor-virtual attribute="% errorCount"
+                callTime="ON_BENCH" computing="0" connection-type="8"
+                format="NUMBER"
+                helpID="reference.design.monitors.tomcat.requestprocessor.%.errorcount"
+                monitor="0" monitorType=""
+                name="RequestProcessor/jk-8009/% errorCount"
+                object-name="Catalina:name=jk-8009,type=GlobalRequestProcessor"
+                operator="%"
+                path="RequestProcessor/jk-8009/% errorCount"
+                sampling="0" short-display-name="% errorCount"
+                threshold="fc3b9007-eea5-4124-a764-1356ca623013" unit="%">
+                <description>Percentage of errors since last call</description>
+                <monitor-jmx attribute="errorCount" callTime="ON_BENCH"
+                    computing="1" connection-type="8" format="NUMBER"
+                    monitor="0" monitorType=""
+                    name="RequestProcessor/jk-8009/errorCount"
+                    object-name="Catalina:name=jk-8009,type=GlobalRequestProcessor"
+                    path="RequestProcessor/jk-8009/errorCount"
+                    sampling="0" short-display-name="errorCount" unit=""/>
+                <monitor-jmx attribute="requestCount"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="8" format="NUMBER" monitor="0"
+                    monitorType=""
+                    name="RequestProcessor/jk-8009/requestCount"
+                    object-name="Catalina:name=jk-8009,type=GlobalRequestProcessor"
+                    path="RequestProcessor/jk-8009/requestCount"
+                    sampling="0" short-display-name="requestCount" unit=""/>
+            </monitor-virtual>
+        </monitor-category>
+    </monitor-category>
+    <monitor-category name="DataSource" short-display-name="DataSource">
+        <monitor-category name="localhost" short-display-name="localhost">
+            <monitor-category name="/jpetstore" short-display-name="/jpetstore">
+                <monitor-category name="javax.sql.DataSource" short-display-name="javax.sql.DataSource">
+                    <monitor-category name="&quot;jdbc/jpetstore&quot;" short-display-name="&quot;jdbc/jpetstore&quot;">
+                        <monitor-jmx attribute="numActive"
+                            callTime="ON_BENCH" computing="0"
+                            connection-type="8" format="NUMBER"
+                            helpID="reference.design.monitors.tomcat.datasource.numactive"
+                            monitor="0" monitorType=""
+                            name="DataSource/localhost//jpetstore/javax.sql.DataSource/-jdbc/jpetstore-/numActive"
+                            object-name="Catalina:class=javax.sql.DataSource,host=localhost,name=&quot;jdbc/jpetstore&quot;,path=/jpetstore,type=DataSource"
+                            path="DataSource/localhost//jpetstore/javax.sql.DataSource/&quot;jdbc/jpetstore&quot;/numActive"
+                            sampling="0" short-display-name="numActive" unit="">
+                            <description>Number of active connections</description>
+                        </monitor-jmx>
+                        <monitor-virtual attribute="% numActive"
+                            callTime="ON_BENCH" computing="0"
+                            connection-type="8" format="NUMBER"
+                            helpID="reference.design.monitors.tomcat.datasource.%.numactive"
+                            monitor="0" monitorType=""
+                            name="DataSource/localhost//jpetstore/javax.sql.DataSource/-jdbc/jpetstore-/% numActive"
+                            object-name="Catalina:class=javax.sql.DataSource,host=localhost,name=&quot;jdbc/jpetstore&quot;,path=/jpetstore,type=DataSource"
+                            operator="%"
+                            path="DataSource/localhost//jpetstore/javax.sql.DataSource/&quot;jdbc/jpetstore&quot;/% numActive"
+                            sampling="0"
+                            short-display-name="% numActive"
+                            threshold="810108f6-cf7a-49bc-bf41-3aa6f54da5cb" unit="%">
+                            <description>Percentage of active connections</description>
+                            <monitor-jmx attribute="numActive"
+                                callTime="ON_BENCH" computing="0"
+                                connection-type="8" format="NUMBER"
+                                monitor="0" monitorType=""
+                                name="DataSource/localhost//jpetstore/javax.sql.DataSource/-jdbc/jpetstore-/numActive"
+                                object-name="Catalina:class=javax.sql.DataSource,host=localhost,name=&quot;jdbc/jpetstore&quot;,path=/jpetstore,type=DataSource"
+                                path="DataSource/localhost//jpetstore/javax.sql.DataSource/&quot;jdbc/jpetstore&quot;/numActive"
+                                sampling="0"
+                                short-display-name="numActive" unit=""/>
+                            <monitor-jmx attribute="maxActive"
+                                callTime="ON_BENCH" computing="0"
+                                connection-type="8" format="NUMBER"
+                                monitor="0" monitorType=""
+                                name="DataSource/localhost//jpetstore/javax.sql.DataSource/-jdbc/jpetstore-/maxActive"
+                                object-name="Catalina:class=javax.sql.DataSource,host=localhost,name=&quot;jdbc/jpetstore&quot;,path=/jpetstore,type=DataSource"
+                                path="DataSource/localhost//jpetstore/javax.sql.DataSource/&quot;jdbc/jpetstore&quot;/maxActive"
+                                sampling="0"
+                                short-display-name="maxActive" unit=""/>
+                        </monitor-virtual>
+                        <monitor-jmx attribute="numIdle"
+                            callTime="ON_BENCH" computing="0"
+                            connection-type="8" format="NUMBER"
+                            helpID="reference.design.monitors.tomcat.datasource.numidle"
+                            monitor="0" monitorType=""
+                            name="DataSource/localhost//jpetstore/javax.sql.DataSource/-jdbc/jpetstore-/numIdle"
+                            object-name="Catalina:class=javax.sql.DataSource,host=localhost,name=&quot;jdbc/jpetstore&quot;,path=/jpetstore,type=DataSource"
+                            path="DataSource/localhost//jpetstore/javax.sql.DataSource/&quot;jdbc/jpetstore&quot;/numIdle"
+                            sampling="0" short-display-name="numIdle" unit="">
+                            <description>Number of idle connections</description>
+                        </monitor-jmx>
+                        <monitor-jmx attribute="poolConfiguration"
+                            callTime="ON_START" computing="0"
+                            connection-type="8" format="TEXT"
+                            helpID="reference.design.monitors.tomcat.datasource.poolconfiguration"
+                            monitor="0" monitorType=""
+                            name="DataSource/localhost//jpetstore/javax.sql.DataSource/-jdbc/jpetstore-/poolConfiguration"
+                            object-name="Catalina:class=javax.sql.DataSource,host=localhost,name=&quot;jdbc/jpetstore&quot;,path=/jpetstore,type=DataSource"
+                            path="DataSource/localhost//jpetstore/javax.sql.DataSource/&quot;jdbc/jpetstore&quot;/poolConfiguration"
+                            sampling="0"
+                            short-display-name="poolConfiguration"
+                            type="multivalues" unit="">
+                            <description>Textual description of datasource pool configuration</description>
+                            <monitor-value-pattern pattern="Minimum Idle Connections: @minIdle@, Maximum Idle Connections: @maxIdle@, Maximum Connections: @maxActive@"/>
+                            <monitor-value-pattern pattern="Maximum Wait Delay (ms): @maxWait@"/>
+                        </monitor-jmx>
+                    </monitor-category>
+                    <monitor-category name="&quot;jdbc/jpetstore1&quot;" short-display-name="&quot;jdbc/jpetstore1&quot;">
+                        <monitor-jmx attribute="numActive"
+                            callTime="ON_BENCH" computing="0"
+                            connection-type="8" format="NUMBER"
+                            helpID="reference.design.monitors.tomcat.datasource.numactive"
+                            monitor="0" monitorType=""
+                            name="DataSource/localhost//jpetstore/javax.sql.DataSource/-jdbc/jpetstore1-/numActive"
+                            object-name="Catalina:class=javax.sql.DataSource,host=localhost,name=&quot;jdbc/jpetstore1&quot;,path=/jpetstore,type=DataSource"
+                            path="DataSource/localhost//jpetstore/javax.sql.DataSource/&quot;jdbc/jpetstore1&quot;/numActive"
+                            sampling="0" short-display-name="numActive" unit="">
+                            <description>Number of active connections</description>
+                        </monitor-jmx>
+                        <monitor-virtual attribute="% numActive"
+                            callTime="ON_BENCH" computing="0"
+                            connection-type="8" format="NUMBER"
+                            helpID="reference.design.monitors.tomcat.datasource.%.numactive"
+                            monitor="0" monitorType=""
+                            name="DataSource/localhost//jpetstore/javax.sql.DataSource/-jdbc/jpetstore1-/% numActive"
+                            object-name="Catalina:class=javax.sql.DataSource,host=localhost,name=&quot;jdbc/jpetstore1&quot;,path=/jpetstore,type=DataSource"
+                            operator="%"
+                            path="DataSource/localhost//jpetstore/javax.sql.DataSource/&quot;jdbc/jpetstore1&quot;/% numActive"
+                            sampling="0"
+                            short-display-name="% numActive"
+                            threshold="fc70b76f-d4cb-4e84-962a-5dc9be9e7282" unit="%">
+                            <description>Percentage of active connections</description>
+                            <monitor-jmx attribute="numActive"
+                                callTime="ON_BENCH" computing="0"
+                                connection-type="8" format="NUMBER"
+                                monitor="0" monitorType=""
+                                name="DataSource/localhost//jpetstore/javax.sql.DataSource/-jdbc/jpetstore1-/numActive"
+                                object-name="Catalina:class=javax.sql.DataSource,host=localhost,name=&quot;jdbc/jpetstore1&quot;,path=/jpetstore,type=DataSource"
+                                path="DataSource/localhost//jpetstore/javax.sql.DataSource/&quot;jdbc/jpetstore1&quot;/numActive"
+                                sampling="0"
+                                short-display-name="numActive" unit=""/>
+                            <monitor-jmx attribute="maxActive"
+                                callTime="ON_BENCH" computing="0"
+                                connection-type="8" format="NUMBER"
+                                monitor="0" monitorType=""
+                                name="DataSource/localhost//jpetstore/javax.sql.DataSource/-jdbc/jpetstore1-/maxActive"
+                                object-name="Catalina:class=javax.sql.DataSource,host=localhost,name=&quot;jdbc/jpetstore1&quot;,path=/jpetstore,type=DataSource"
+                                path="DataSource/localhost//jpetstore/javax.sql.DataSource/&quot;jdbc/jpetstore1&quot;/maxActive"
+                                sampling="0"
+                                short-display-name="maxActive" unit=""/>
+                        </monitor-virtual>
+                        <monitor-jmx attribute="numIdle"
+                            callTime="ON_BENCH" computing="0"
+                            connection-type="8" format="NUMBER"
+                            helpID="reference.design.monitors.tomcat.datasource.numidle"
+                            monitor="0" monitorType=""
+                            name="DataSource/localhost//jpetstore/javax.sql.DataSource/-jdbc/jpetstore1-/numIdle"
+                            object-name="Catalina:class=javax.sql.DataSource,host=localhost,name=&quot;jdbc/jpetstore1&quot;,path=/jpetstore,type=DataSource"
+                            path="DataSource/localhost//jpetstore/javax.sql.DataSource/&quot;jdbc/jpetstore1&quot;/numIdle"
+                            sampling="0" short-display-name="numIdle" unit="">
+                            <description>Number of idle connections</description>
+                        </monitor-jmx>
+                        <monitor-jmx attribute="poolConfiguration"
+                            callTime="ON_START" computing="0"
+                            connection-type="8" format="TEXT"
+                            helpID="reference.design.monitors.tomcat.datasource.poolconfiguration"
+                            monitor="0" monitorType=""
+                            name="DataSource/localhost//jpetstore/javax.sql.DataSource/-jdbc/jpetstore1-/poolConfiguration"
+                            object-name="Catalina:class=javax.sql.DataSource,host=localhost,name=&quot;jdbc/jpetstore1&quot;,path=/jpetstore,type=DataSource"
+                            path="DataSource/localhost//jpetstore/javax.sql.DataSource/&quot;jdbc/jpetstore1&quot;/poolConfiguration"
+                            sampling="0"
+                            short-display-name="poolConfiguration"
+                            type="multivalues" unit="">
+                            <description>Textual description of datasource pool configuration</description>
+                            <monitor-value-pattern pattern="Minimum Idle Connections: @minIdle@, Maximum Idle Connections: @maxIdle@, Maximum Connections: @maxActive@"/>
+                            <monitor-value-pattern pattern="Maximum Wait Delay (ms): @maxWait@"/>
+                        </monitor-jmx>
+                    </monitor-category>
+                </monitor-category>
+            </monitor-category>
+        </monitor-category>
+    </monitor-category>
+    <monitor-category name="ThreadPool" short-display-name="ThreadPool">
+        <monitor-category name="http-8080" short-display-name="http-8080">
+            <monitor-jmx attribute="currentThreadsBusy"
+                callTime="ON_BENCH" computing="0" connection-type="8"
+                format="NUMBER"
+                helpID="reference.design.monitors.tomcat.threadpool.currentthreadsbusy"
+                monitor="0" monitorType=""
+                name="ThreadPool/http-8080/currentThreadsBusy"
+                object-name="Catalina:name=http-8080,type=ThreadPool"
+                path="ThreadPool/http-8080/currentThreadsBusy"
+                sampling="0" short-display-name="currentThreadsBusy"
+                threshold="dca6eac5-e458-46be-94ec-33daa4caa2e4" unit="">
+                <description>Number of busy threads in the pool</description>
+            </monitor-jmx>
+            <monitor-virtual attribute="% currentThreadsBusy"
+                callTime="ON_BENCH" computing="0" connection-type="8"
+                format="NUMBER"
+                helpID="reference.design.monitors.tomcat.threadpool.%.currentthreadsbusy"
+                monitor="0" monitorType=""
+                name="ThreadPool/http-8080/% currentThreadsBusy"
+                object-name="Catalina:name=http-8080,type=ThreadPool"
+                operator="%"
+                path="ThreadPool/http-8080/% currentThreadsBusy"
+                sampling="0" short-display-name="% currentThreadsBusy"
+                threshold="04654028-b86a-4ba0-b248-75d67e36d2bb" unit="%">
+                <description>Percentage of busy threads in the pool</description>
+                <monitor-jmx attribute="currentThreadsBusy"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="8" format="NUMBER" monitor="0"
+                    monitorType=""
+                    name="ThreadPool/http-8080/currentThreadsBusy"
+                    object-name="Catalina:name=http-8080,type=ThreadPool"
+                    path="ThreadPool/http-8080/currentThreadsBusy"
+                    sampling="0" short-display-name="currentThreadsBusy" unit=""/>
+                <monitor-jmx attribute="maxThreads" callTime="ON_BENCH"
+                    computing="0" connection-type="8" format="NUMBER"
+                    monitor="0" monitorType=""
+                    name="ThreadPool/http-8080/maxThreads"
+                    object-name="Catalina:name=http-8080,type=ThreadPool"
+                    path="ThreadPool/http-8080/maxThreads" sampling="0"
+                    short-display-name="maxThreads" unit=""/>
+            </monitor-virtual>
+            <monitor-jmx attribute="currentThreadCount"
+                callTime="ON_BENCH" computing="0" connection-type="8"
+                format="NUMBER"
+                helpID="reference.design.monitors.tomcat.threadpool.currentthreadcount"
+                monitor="0" monitorType=""
+                name="ThreadPool/http-8080/currentThreadCount"
+                object-name="Catalina:name=http-8080,type=ThreadPool"
+                path="ThreadPool/http-8080/currentThreadCount"
+                sampling="0" short-display-name="currentThreadCount" unit="">
+                <description>Number of threads in the pool</description>
+            </monitor-jmx>
+            <monitor-jmx attribute="threadsConfiguration"
+                callTime="ON_START" computing="0" connection-type="8"
+                format="TEXT"
+                helpID="reference.design.monitors.tomcat.threadpool.threadsconfiguration"
+                monitor="0" monitorType=""
+                name="ThreadPool/http-8080/threadsConfiguration"
+                object-name="Catalina:name=http-8080,type=ThreadPool"
+                path="ThreadPool/http-8080/threadsConfiguration"
+                sampling="0" short-display-name="threadsConfiguration"
+                type="multivalues" unit="">
+                <description>Textual description of connection pool configuration</description>
+                <monitor-value-pattern pattern="Maximum Threads: @maxThreads@"/>
+                <monitor-value-pattern pattern="Minimum Spare Threads: @minSpareThreads@, Maximum Spare Threads: @maxSpareThreads@"/>
+            </monitor-jmx>
+        </monitor-category>
+        <monitor-category name="jk-8009" short-display-name="jk-8009">
+            <monitor-jmx attribute="currentThreadsBusy"
+                callTime="ON_BENCH" computing="0" connection-type="8"
+                format="NUMBER"
+                helpID="reference.design.monitors.tomcat.threadpool.currentthreadsbusy"
+                monitor="0" monitorType=""
+                name="ThreadPool/jk-8009/currentThreadsBusy"
+                object-name="Catalina:name=jk-8009,type=ThreadPool"
+                path="ThreadPool/jk-8009/currentThreadsBusy"
+                sampling="0" short-display-name="currentThreadsBusy" unit="">
+                <description>Number of busy threads in the pool</description>
+            </monitor-jmx>
+            <monitor-virtual attribute="% currentThreadsBusy"
+                callTime="ON_BENCH" computing="0" connection-type="8"
+                format="NUMBER"
+                helpID="reference.design.monitors.tomcat.threadpool.%.currentthreadsbusy"
+                monitor="0" monitorType=""
+                name="ThreadPool/jk-8009/% currentThreadsBusy"
+                object-name="Catalina:name=jk-8009,type=ThreadPool"
+                operator="%"
+                path="ThreadPool/jk-8009/% currentThreadsBusy"
+                sampling="0" short-display-name="% currentThreadsBusy"
+                threshold="9b0bbdc2-0b3c-4199-9678-3751ed5e8a3a" unit="%">
+                <description>Percentage of busy threads in the pool</description>
+                <monitor-jmx attribute="currentThreadsBusy"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="8" format="NUMBER" monitor="0"
+                    monitorType=""
+                    name="ThreadPool/jk-8009/currentThreadsBusy"
+                    object-name="Catalina:name=jk-8009,type=ThreadPool"
+                    path="ThreadPool/jk-8009/currentThreadsBusy"
+                    sampling="0" short-display-name="currentThreadsBusy" unit=""/>
+                <monitor-jmx attribute="maxThreads" callTime="ON_BENCH"
+                    computing="0" connection-type="8" format="NUMBER"
+                    monitor="0" monitorType=""
+                    name="ThreadPool/jk-8009/maxThreads"
+                    object-name="Catalina:name=jk-8009,type=ThreadPool"
+                    path="ThreadPool/jk-8009/maxThreads" sampling="0"
+                    short-display-name="maxThreads" unit=""/>
+            </monitor-virtual>
+            <monitor-jmx attribute="threadsConfiguration"
+                callTime="ON_START" computing="0" connection-type="8"
+                format="TEXT"
+                helpID="reference.design.monitors.tomcat.threadpool.threadsconfiguration"
+                monitor="0" monitorType=""
+                name="ThreadPool/jk-8009/threadsConfiguration"
+                object-name="Catalina:name=jk-8009,type=ThreadPool"
+                path="ThreadPool/jk-8009/threadsConfiguration"
+                sampling="0" short-display-name="threadsConfiguration"
+                type="multivalues" unit="">
+                <description>Textual description of connection pool configuration</description>
+                <monitor-value-pattern pattern="Maximum Threads: @maxThreads@"/>
+                <monitor-value-pattern pattern="Minimum Spare Threads: @minSpareThreads@, Maximum Spare Threads: @maxSpareThreads@"/>
+            </monitor-jmx>
+        </monitor-category>
+    </monitor-category>
+    <monitor-category name="VM" short-display-name="VM">
+        <monitor-category name="Memory" short-display-name="Memory">
+            <monitor-jmx attribute="HeapMemoryUsage" callTime="ON_BENCH"
+                class="javax.management.openmbean.CompositeDataSupport"
+                computing="0" connection-type="8" format="NUMBER"
+                helpID="reference.design.monitors.tomcat.vm.used"
+                method="get" monitor="0" monitorType=""
+                name="VM/Memory/Used"
+                object-name="java.lang:type=Memory" parameters="used"
+                parametersTypes="java.lang.String" path="VM/Memory/Used"
+                sampling="0" short-display-name="Used" shortId="Used" unit="bytes">
+                <description>Represents the amount of memory currently used (in bytes)</description>
+            </monitor-jmx>
+            <monitor-virtual attribute="% Used" callTime="ON_BENCH"
+                computing="0" connection-type="8" format="NUMBER"
+                helpID="reference.design.monitors.tomcat.vm.%.used"
+                monitor="0" monitorType="" name="VM/Memory/% Used"
+                object-name="java.lang:type=Memory" operator="%"
+                path="VM/Memory/% Used" sampling="0"
+                short-display-name="% Used"
+                threshold="74f70a0e-a89f-4f9b-8f85-ec5cd9c9df64" unit="%">
+                <description>Represents the percentage amount of memory currently used</description>
+                <monitor-jmx attribute="HeapMemoryUsage"
+                    callTime="ON_BENCH"
+                    class="javax.management.openmbean.CompositeDataSupport"
+                    computing="0" connection-type="8" format="NUMBER"
+                    method="get" monitor="0" monitorType=""
+                    name="VM/Memory/Used"
+                    object-name="java.lang:type=Memory"
+                    parameters="used" parametersTypes="java.lang.String"
+                    path="VM/Memory/Used" sampling="0"
+                    short-display-name="Used" shortId="Used" unit="bytes">
+                    <description>Used</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="HeapMemoryUsage"
+                    callTime="ON_BENCH"
+                    class="javax.management.openmbean.CompositeDataSupport"
+                    computing="0" connection-type="8" format="NUMBER"
+                    method="get" monitor="0" monitorType=""
+                    name="VM/Memory/Max"
+                    object-name="java.lang:type=Memory" parameters="max"
+                    parametersTypes="java.lang.String"
+                    path="VM/Memory/Max" sampling="0"
+                    short-display-name="Max" shortId="Max" unit="bytes">
+                    <description>Max</description>
+                </monitor-jmx>
+            </monitor-virtual>
+            <monitor-jmx attribute="HeapMemoryUsage" callTime="ON_BENCH"
+                class="javax.management.openmbean.CompositeDataSupport"
+                computing="0" connection-type="8" format="NUMBER"
+                helpID="reference.design.monitors.tomcat.vm.commited"
+                method="get" monitor="0" monitorType=""
+                name="VM/Memory/Commited"
+                object-name="java.lang:type=Memory"
+                parameters="committed"
+                parametersTypes="java.lang.String"
+                path="VM/Memory/Commited" sampling="0"
+                short-display-name="Commited" shortId="Commited" unit="bytes">
+                <description>Represents the amount of memory (in bytes) that is guaranteed to be available for use by the Java virtual machine. Amount of committed memory may change over time (increase or decrease). The Java virtual machine may release memory to the system and committed could be less than init. committed will always be greater than or equal to used.</description>
+            </monitor-jmx>
+            <monitor-jmx attribute="HeapMemoryUsage" callTime="ON_BENCH"
+                class="javax.management.openmbean.CompositeDataSupport"
+                computing="0" connection-type="8" format="NUMBER"
+                helpID="reference.design.monitors.tomcat.vm.max"
+                method="get" monitor="0" monitorType=""
+                name="VM/Memory/Max" object-name="java.lang:type=Memory"
+                parameters="max" parametersTypes="java.lang.String"
+                path="VM/Memory/Max" sampling="0"
+                short-display-name="Max" shortId="Max" unit="bytes">
+                <description>Represents the maximum amount of memory (in bytes) that can be used for memory management. Its value may be undefined. Maximum amount of memory may change over time if defined. Amount of used and committed memory will always be less than or equal to max if max is defined. A memory allocation may fail if it attempts to increase the used memory such that used &gt; committed even if used &lt;= max would still be true (for example, when the system is low on virtual memory).</description>
+            </monitor-jmx>
+        </monitor-category>
+        <monitor-category name="Garbage Collector" short-display-name="Garbage Collector">
+            <monitor-category name="Copy" short-display-name="Copy">
+                <monitor-jmx attribute="CollectionCount"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="8" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.vm.collectioncount"
+                    monitor="0" monitorType=""
+                    name="VM/Garbage Collector/Copy/CollectionCount"
+                    object-name="java.lang:name=Copy,type=GarbageCollector"
+                    path="VM/Garbage Collector/Copy/CollectionCount"
+                    sampling="0" short-display-name="CollectionCount" unit="">
+                    <description>Returns the number of collections that have occurred since last call</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="CollectionTime"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="8" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.vm.collectiontime"
+                    monitor="0" monitorType=""
+                    name="VM/Garbage Collector/Copy/CollectionTime"
+                    object-name="java.lang:name=Copy,type=GarbageCollector"
+                    path="VM/Garbage Collector/Copy/CollectionTime"
+                    sampling="0" short-display-name="CollectionTime" unit="ms">
+                    <description>Returns the approximate accumulated collection elapsed time in milliseconds since last call</description>
+                </monitor-jmx>
+            </monitor-category>
+            <monitor-category name="MarkSweepCompact" short-display-name="MarkSweepCompact">
+                <monitor-jmx attribute="CollectionCount"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="8" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.vm.collectioncount"
+                    monitor="0" monitorType=""
+                    name="VM/Garbage Collector/MarkSweepCompact/CollectionCount"
+                    object-name="java.lang:name=MarkSweepCompact,type=GarbageCollector"
+                    path="VM/Garbage Collector/MarkSweepCompact/CollectionCount"
+                    sampling="0" short-display-name="CollectionCount" unit="">
+                    <description>Returns the number of collections that have occurred since last call</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="CollectionTime"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="8" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.vm.collectiontime"
+                    monitor="0" monitorType=""
+                    name="VM/Garbage Collector/MarkSweepCompact/CollectionTime"
+                    object-name="java.lang:name=MarkSweepCompact,type=GarbageCollector"
+                    path="VM/Garbage Collector/MarkSweepCompact/CollectionTime"
+                    sampling="0" short-display-name="CollectionTime" unit="ms">
+                    <description>Returns the approximate accumulated collection elapsed time in milliseconds since last call</description>
+                </monitor-jmx>
+            </monitor-category>
+        </monitor-category>
+        <monitor-category name="Threads" short-display-name="Threads">
+            <monitor-jmx attribute="ThreadCount" callTime="ON_BENCH"
+                computing="0" connection-type="8" format="NUMBER"
+                helpID="reference.design.monitors.tomcat.vm.threadcount"
+                monitor="0" monitorType="" name="VM/Threads/ThreadCount"
+                object-name="java.lang:type=Threading"
+                path="VM/Threads/ThreadCount" sampling="0"
+                short-display-name="ThreadCount" unit="">
+                <description>Returns the current number of live threads including both daemon and non-daemon threads</description>
+            </monitor-jmx>
+            <monitor-jmx attribute="DaemonThreadCount"
+                callTime="ON_BENCH" computing="0" connection-type="8"
+                format="NUMBER"
+                helpID="reference.design.monitors.tomcat.vm.daemonthreadcount"
+                monitor="0" monitorType=""
+                name="VM/Threads/DaemonThreadCount"
+                object-name="java.lang:type=Threading"
+                path="VM/Threads/DaemonThreadCount" sampling="0"
+                short-display-name="DaemonThreadCount" unit="">
+                <description>Returns the current number of live daemon threads</description>
+            </monitor-jmx>
+            <monitor-jmx attribute="PeakThreadCount" callTime="ON_BENCH"
+                computing="0" connection-type="8" format="NUMBER"
+                helpID="reference.design.monitors.tomcat.vm.peakthreadcount"
+                monitor="0" monitorType=""
+                name="VM/Threads/PeakThreadCount"
+                object-name="java.lang:type=Threading"
+                path="VM/Threads/PeakThreadCount" sampling="0"
+                short-display-name="PeakThreadCount" unit="">
+                <description>Returns the peak live thread count since the Java virtual machine started or peak was reset</description>
+            </monitor-jmx>
+        </monitor-category>
+    </monitor-category>
+    <monitor-category name="Description" short-display-name="Description">
+        <monitor-jmx attribute="JVM" callTime="ON_START" computing="0"
+            connection-type="8" format="TEXT"
+            helpID="reference.design.monitors.tomcat.description.jvm"
+            monitor="0" monitorType="" name="Description/JVM"
+            object-name="java.lang:type=Runtime" path="Description/JVM"
+            sampling="0" short-display-name="JVM" type="multivalues" unit="">
+            <description>Textual description for the Java Runtime running Tomcat server</description>
+            <monitor-value-pattern pattern="JVM: @VmVersion@ @VmVendor@ @VmName@"/>
+        </monitor-jmx>
+        <monitor-category name="Specification" short-display-name="Specification">
+            <monitor-jmx attribute="Host" callTime="ON_START"
+                computing="0" connection-type="8" format="TEXT"
+                helpID="reference.design.monitors.tomcat.description.host"
+                monitor="0" monitorType=""
+                name="Description/Specification/Host"
+                object-name="java.lang:type=OperatingSystem"
+                path="Description/Specification/Host" sampling="0"
+                short-display-name="Host" type="multivalues" unit="">
+                <description>Textual description about operating system and server hardware</description>
+                <monitor-value-pattern pattern="Operating System: @Name@ @Version@ @Arch@"/>
+                <monitor-value-pattern pattern="Number of detected processors: @AvailableProcessors@"/>
+                <monitor-value-pattern pattern="Physical Memory Size: @TotalPhysicalMemorySize@ / Swap Space Size: @TotalSwapSpaceSize@"/>
+                <monitor-value-pattern pattern="Maximum file descriptors: @MaxFileDescriptorCount@"/>
+            </monitor-jmx>
+        </monitor-category>
+    </monitor-category>
+    <threshold enabled="true" uid="c367ca91-4564-486a-8081-9dcbf5498a29">
+        <threshold-condition durationKind="SECONDS" durationNumber="15"
+            operator="GREATER_THAN" severity="LOW" valueMax="Infinity" valueMin="50.0">
+            <threshold-comment language="en">
+                <threshold-content>Too high number of rejected sessions</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Nombre de sessions rejetées élevées</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+        <threshold-condition durationKind="SECONDS" durationNumber="15"
+            operator="GREATER_THAN" severity="HIGH" valueMax="Infinity" valueMin="100.0">
+            <threshold-comment language="en">
+                <threshold-content>Too high number of rejected sessions</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Nombre de sessions rejetées élevées</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+    </threshold>
+    <threshold enabled="true" uid="6ec9ac21-27c3-4e1c-8397-15394925a908">
+        <threshold-condition durationKind="SECONDS" durationNumber="15"
+            operator="GREATER_THAN" severity="LOW" valueMax="Infinity" valueMin="50.0">
+            <threshold-comment language="en">
+                <threshold-content>Too high number of errors</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Nombre élevé d'erreurs</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+        <threshold-condition durationKind="SECONDS" durationNumber="15"
+            operator="GREATER_THAN" severity="HIGH" valueMax="Infinity" valueMin="100.0">
+            <threshold-comment language="en">
+                <threshold-content>Too high number of errors</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Nombre élevé d'erreurs</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+    </threshold>
+    <threshold enabled="true" uid="fc3b9007-eea5-4124-a764-1356ca623013">
+        <threshold-condition durationKind="SECONDS" durationNumber="15"
+            operator="GREATER_THAN" severity="LOW" valueMax="Infinity" valueMin="50.0">
+            <threshold-comment language="en">
+                <threshold-content>Too high number of errors</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Nombre élevé d'erreurs</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+        <threshold-condition durationKind="SECONDS" durationNumber="15"
+            operator="GREATER_THAN" severity="HIGH" valueMax="Infinity" valueMin="100.0">
+            <threshold-comment language="en">
+                <threshold-content>Too high number of errors</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Nombre élevé d'erreurs</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+    </threshold>
+    <threshold enabled="true" uid="810108f6-cf7a-49bc-bf41-3aa6f54da5cb">
+        <threshold-condition durationKind="SECONDS" durationNumber="30"
+            operator="GREATER_THAN" severity="LOW" valueMax="Infinity" valueMin="90.0">
+            <threshold-comment language="en">
+                <threshold-content>Too high number of active connections</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Nombre élevé de connexions actives</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+    </threshold>
+    <threshold enabled="true" uid="fc70b76f-d4cb-4e84-962a-5dc9be9e7282">
+        <threshold-condition durationKind="SECONDS" durationNumber="30"
+            operator="GREATER_THAN" severity="LOW" valueMax="Infinity" valueMin="90.0">
+            <threshold-comment language="en">
+                <threshold-content>Too high number of active connections</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Nombre élevé de connexions actives</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+    </threshold>
+    <threshold enabled="true" uid="dca6eac5-e458-46be-94ec-33daa4caa2e4">
+        <threshold-condition durationKind="SECONDS" durationNumber="15"
+            operator="GREATER_THAN" severity="LOW" valueMax="Infinity" valueMin="25.0"/>
+    </threshold>
+    <threshold enabled="true" uid="04654028-b86a-4ba0-b248-75d67e36d2bb">
+        <threshold-condition durationKind="SECONDS" durationNumber="15"
+            operator="GREATER_THAN" severity="LOW" valueMax="Infinity" valueMin="90.0">
+            <threshold-comment language="en">
+                <threshold-content>Too high number of busy threads</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Nombre élevé de threads actifs</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+    </threshold>
+    <threshold enabled="true" uid="9b0bbdc2-0b3c-4199-9678-3751ed5e8a3a">
+        <threshold-condition durationKind="SECONDS" durationNumber="15"
+            operator="GREATER_THAN" severity="LOW" valueMax="Infinity" valueMin="90.0">
+            <threshold-comment language="en">
+                <threshold-content>Too high number of busy threads</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Nombre élevé de threads actifs</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+    </threshold>
+    <threshold enabled="true" uid="74f70a0e-a89f-4f9b-8f85-ec5cd9c9df64">
+        <threshold-condition durationKind="SECONDS" durationNumber="15"
+            operator="GREATER_THAN" severity="LOW" valueMax="Infinity" valueMin="80.0">
+            <threshold-comment language="en">
+                <threshold-content>Too high amount of memory used</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Quantité élevée de mémoire en cours d'utilisation</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+        <threshold-condition durationKind="SECONDS" durationNumber="15"
+            operator="GREATER_THAN" severity="HIGH" valueMax="Infinity" valueMin="90.0">
+            <threshold-comment language="en">
+                <threshold-content>Too high amount of memory used</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Quantité élevée de mémoire en cours d'utilisation</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+    </threshold>
+</connection-tomcat>

@@ -1,0 +1,6 @@
+<variable-list name="API_ESS" offset="1" order="2" policy="3" range="1" uid="b5807a6a-9c7f-42c0-96b4-1c6101e4fbf1" whenOutOfValues="CYCLE_VALUES">
+<description>mt001xswfm114.federated.fds</description>
+<column name="Context" number="1"/>
+<column name="Server" number="0"/>
+<values><![CDATA[rO0ABXVyABRbW0xqYXZhLmxhbmcuU3RyaW5nOzJNCa2EMuRXAgAAeHAAAAABdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAnQAG210MDAxeHN3Zm0xMTQuZmVkZXJhdGVkLmZkc3QAA3dmYw==]]></values>
+</variable-list>

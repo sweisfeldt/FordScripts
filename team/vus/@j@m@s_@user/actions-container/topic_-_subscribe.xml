@@ -1,0 +1,11 @@
+<custom-action actionType="Subscribe To Topic" isHit="true"
+    name="topic_-_subscribe" uid="2b806d75-7cb7-4ba0-8457-c3c08eb312ee">
+    <description>Subscribes to a topic.
+
+Possible parameters are:&#xd;
+- topic (required): The JNDI topic name.&#xd;
+- jmsSelector (optional): The message selector to only subscribe to messages respecting the selector condition.&#xd;
+- includeLocal (optional): If set to true, messages published by same connection are included.</description>
+    <custom-action-parameter name="topic" type="TEXT" value="jms/topic"/>
+    <responsePageFileDescription>team/vus/@j@m@s_@user/%resources%/recorded-responses/res_2b806d75-7cb7-4ba0-8457-c3c08eb312ee</responsePageFileDescription>
+</custom-action>

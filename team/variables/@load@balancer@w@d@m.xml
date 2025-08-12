@@ -1,0 +1,5 @@
+<variable-list name="LoadBalancerWDM" offset="1" order="1" policy="4" range="1" uid="fb3b6f43-e09a-4eb3-ae3e-7369e079eb34" whenOutOfValues="CYCLE_VALUES">
+<description>Specifically for WDM</description>
+<column name="Server" number="0"/>
+<values><![CDATA[rO0ABXVyABRbW0xqYXZhLmxhbmcuU3RyaW5nOzJNCa2EMuRXAgAAeHAAAAABdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAXQADmt2cy11cy1uZW9sb2Fk]]></values>
+</variable-list>

@@ -1,0 +1,15 @@
+<custom-action actionType="CitrixWindowWait" isHit="true"
+    name="WindowWait - JCarConfigurator - Version 1 - ACT..._1" uid="e46aa822-3da5-41f9-a2a4-4edaf37f42ca">
+    <description>This Action waits for an event (CREATED, ACTIVATED, DESTROYED) for a window with a title (that can be a regexp) and optionally in a certain region of the screen.
+
+Possible parameters are:&#xd;
+- windowName (required): Window name, that can be a regexp like "Calculator.*".&#xd;
+- windowEvent (required): Event to wait: CREATED, ACTIVATED, DESTROYED. Default value is "ACTIVATED".&#xd;
+- windowRect (optional): Region of the window in the format: [poxX,poxY,width,height].&#xd;
+- waitTimeoutInMs (required): Maximum timeout in milliseconds to wait for receiving the right windowEvent, if 0 it will wait infinitely. Default value is "60000".</description>
+    <custom-action-parameter name="windowName" type="TEXT" value="JCarConfigurator - Version 1"/>
+    <custom-action-parameter name="windowEvent" type="TEXT" value="ACTIVATED"/>
+    <custom-action-parameter name="waitTimeoutInMs" type="TEXT" value="${citrixWaitTimeoutInMs-UserPath}"/>
+    <responsePageFileDescription>team/vus/@citrix_@user/%resources%/recorded-responses/res_de28b81e-d1c6-412b-afa0-782baafaccfd</responsePageFileDescription>
+    <screenshotFileDescription>team/vus/@citrix_@user/%resources%/recorded-screenshots/sc_de28b81e-d1c6-412b-afa0-782baafaccfd.png</screenshotFileDescription>
+</custom-action>

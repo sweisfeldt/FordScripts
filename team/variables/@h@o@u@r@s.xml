@@ -1,0 +1,1 @@
+<variable-currentdate inc-type="2" inc-value="-2" name="HOURS" order="1" pattern="HH" policy="1" range="2" uid="880f33fb-a3bf-40e6-9fe1-326535c9acf5" whenOutOfValues="CYCLE_VALUES"/>

@@ -1,0 +1,3 @@
+<variable-file delimiters="," filename="variables/Employees.txt" name="Employees" offset="1" order="2" policy="5" range="1" uid="3001112d-9879-4ad0-ae36-5e6ded5d714c" useFirstLine="true" whenOutOfValues="CYCLE_VALUES">
+<column name="Name&quot;;&quot;City&quot;;&quot;State" number="0"/>
+</variable-file>

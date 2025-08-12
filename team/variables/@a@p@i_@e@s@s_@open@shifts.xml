@@ -1,0 +1,6 @@
+<variable-file delimiters="," filename="variables/Open_Shifts.csv" name="API_ESS_OpenShifts" offset="1" order="1" policy="1" range="1" uid="1b90c31b-d319-47c6-adcb-5261a5b7cd44" useFirstLine="true" whenOutOfValues="CYCLE_VALUES">
+<column name="AREA" number="2"/>
+<column name="DIVISION" number="0"/>
+<column name="FULLORGPATH" number="3"/>
+<column name="LOCATION" number="1"/>
+</variable-file>

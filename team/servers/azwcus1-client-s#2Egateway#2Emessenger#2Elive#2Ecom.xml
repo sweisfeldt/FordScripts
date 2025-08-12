@@ -1,0 +1,6 @@
+<http-server hostname="azwcus1-client-s.gateway.messenger.live.com"
+    port="443" ssl="true"
+    uid="azwcus1-client-s.gateway.messenger.live.com"
+    urlrewriting-argument-name="" urlrewriting-enabled="false"
+    urlrewriting-path-extension="false"
+    urlrewriting-path-not-equals="false" urlrewriting-path-separator=";"/>

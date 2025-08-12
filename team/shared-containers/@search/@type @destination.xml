@@ -1,0 +1,8 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Type Destination" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="ba986e58-4d14-47d5-87de-3431c26cff13" weightsEnabled="false">
+    <weighted-embedded-action uid="997c21fe-afe0-40ac-b316-9d0f64c20785"/>
+    <weighted-embedded-action uid="cd85c8dc-5422-4bc7-9033-4f82a792c43f"/>
+    <weighted-embedded-action uid="2884f7c3-d8d0-42e7-b709-edd25fc8fad8"/>
+</basic-logical-action-container>

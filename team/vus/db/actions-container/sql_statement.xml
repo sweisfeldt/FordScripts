@@ -1,0 +1,15 @@
+<custom-action actionType="SQL" isHit="false" name="sql_statement" uid="a35283dc-853b-44be-83c2-ab5dbe76c966">
+    <description>This action executes SQL statements.
+Possible parameters are:
+- type: (required) the type of SQL statement, possible values are QUERY and UPDATE.
+- connectionName: (required) the name of the connection to map with other advanced actions.
+- sqlStatement: (required) the SQL statement to execute.
+- variableName: (optional) the NeoLoad variable to put the value(s) in.
+- includeQueryResults: (optional) if set at false, the results are not included in the XML response. Default value is true. Should be "false" to optimize resource consumption when executing a query that returns multiple rows and retrieving the values from the variables.
+- batchSize: (optional) the batch number to keep in memory before performing a batch update. Default value is 500.</description>
+    <custom-action-parameter name="type" type="TEXT" value="QUERY"/>
+    <custom-action-parameter name="connectionName" type="TEXT" value="myConnection"/>
+    <custom-action-parameter name="sqlStatement" type="TEXT" value="select * from table"/>
+    <custom-action-parameter name="variableName" type="TEXT" value=""/>
+    <responsePageFileDescription>team/vus/db/%resources%/recorded-responses/res_a35283dc-853b-44be-83c2-ab5dbe76c966</responsePageFileDescription>
+</custom-action>

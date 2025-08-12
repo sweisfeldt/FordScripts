@@ -1,0 +1,1 @@
+<variable-currentdate inc-type="0" inc-value="0" name="Now_Minute" order="1" pattern="mm" policy="1" range="2" uid="7f896149-f903-4b9b-b0a5-d57bddb7263d" whenOutOfValues="CYCLE_VALUES"/>

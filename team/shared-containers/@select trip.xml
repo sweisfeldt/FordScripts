@@ -1,0 +1,10 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Select trip" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="bfd4427c-23a9-4567-a86f-9ff5832ed3f2" weightsEnabled="false">
+    <weighted-embedded-action uid="04f0059d-205e-4c23-8c26-5022c365a255"/>
+    <weighted-embedded-action uid="5fd923db-2dba-4045-b1c8-81e49fbcddfc"/>
+    <weighted-embedded-action uid="1ada56df-e3ae-4b40-a59c-4e57b49e31ab"/>
+    <weighted-embedded-action uid="28ceef6a-4a44-4341-b851-f6d054ea8849"/>
+</basic-logical-action-container>
+<shared-element>bfd4427c-23a9-4567-a86f-9ff5832ed3f2</shared-element>

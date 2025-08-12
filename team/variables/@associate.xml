@@ -1,0 +1,6 @@
+<variable-file delimiters="," filename="Associate.csv" name="Associate" offset="1" order="2" policy="1" range="1" uid="bd5cbe17-6d80-4e0c-a7dc-b456a9fbd69b" useFirstLine="true" whenOutOfValues="CYCLE_VALUES">
+<column name="AREA" number="2"/>
+<column name="DIV" number="0"/>
+<column name="LOC" number="1"/>
+<column name="PERSONNUM" number="3"/>
+</variable-file>

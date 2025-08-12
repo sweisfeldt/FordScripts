@@ -1,0 +1,60 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="NO EXTR - /sap/opu/odata/UI2/PAGE_BUILDER_PERS/PageSets('%2FUI2%2FFiori2LaunchpadHome')"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@s@a@p @view @transaction/%resources%/recorded-artifacts/78301894-3f5c-4323-be7e-6456a1a1186f.zip"
+    slaProfileEnabled="false" thinkTime="65"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="78301894-3f5c-4323-be7e-6456a1a1186f">
+    <embedded-action>ebd5d886-5f38-4401-bbfe-7e8a9c8f81aa</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_bc9d67f3-1a06-4697-b184-fa3d2da046e1.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Mon, 26 Apr 2021 09:58:57 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/sap/opu/odata/UI2/PAGE_BUILDER_PERS/PageSets('%2FUI2%2FFiori2LaunchpadHome')"
+    path="/sap/opu/odata/UI2/PAGE_BUILDER_PERS/PageSets('%2FUI2%2FFiori2LaunchpadHome')"
+    postType="2"
+    recordedArtifactZipFileName="team/vus/@s@a@p @view @transaction/%resources%/recorded-artifacts/78301894-3f5c-4323-be7e-6456a1a1186f.zip"
+    recordedResponseCode="200" responseSize="1617545"
+    serverUid="sapdemo21.tricentis.com" slaProfileEnabled="false"
+    uid="ebd5d886-5f38-4401-bbfe-7e8a9c8f81aa" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_6ac5e007-3d1b-4c7a-9fe5-ee94e1562abb</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_6ac5e007-3d1b-4c7a-9fe5-ee94e1562abb.txt</requestContentFileDescription>
+    <parameter encodeName="false" encodeValue="false" name="$expand"
+        recordRawValue="Pages/PageChipInstances/Chip/ChipBags/ChipProperties,Pages/PageChipInstances/RemoteCatalog,Pages/PageChipInstances/ChipInstanceBags/ChipInstanceProperties,AssignedPages,DefaultPage"
+        separator="="
+        value="Pages/PageChipInstances/Chip/ChipBags/ChipProperties,Pages/PageChipInstances/RemoteCatalog,Pages/PageChipInstances/ChipInstanceBags/ChipInstanceProperties,AssignedPages,DefaultPage" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="sap-cache-id"
+        recordRawValue="000D3A44DFA11EDBA9CCA7C7B652E5F1" separator="="
+        value="000D3A44DFA11EDBA9CCA7C7B652E5F1" valueMode="USE_VALUE"/>
+    <header name="referer" value="https://sapdemo21.tricentis.com:44301/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html?sap-client=100&amp;sap-language=EN"/>
+    <header name="x-xhr-logon" value="accept=&quot;iframe,strict-window,window&quot;"/>
+    <header name="sap-language" value="EN"/>
+    <header name="cookie" value="_mkto_trk=id:470-GZN-442&amp;token:_mch-tricentis.com-1616053010726-90484; _gcl_au=1.1.2037278143.1616053008; _ga=GA1.1.1968461694.1593860611; _ga_489D1QT6C1=GS1.1.1616053007.1.0.1616053007.0; sap-usercontext=sap-language=EN&amp;sap-client=100; MYSAPSSO2=${SAP_SSO_Token}; SAP_SESSIONID_S4H_100=${SAP_SessionID}"/>
+    <header name="accept-language" value="en-SG,en-US;q=0.7,en;q=0.3"/>
+    <header name="x-requested-with" value="XMLHttpRequest"/>
+    <header name="x-csrf-token" value="fetch"/>
+    <header name="sap-client" value="100"/>
+    <header name="accept-encoding" value="gzip, deflate"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"/>
+    <header name="accept" value="application/json"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: application/json; charset=utf-8&#xd;
+content-length: 72770&#xd;
+x-csrf-token: O2pubBPKCRHSmznCoBZ6iQ==&#xd;
+dataserviceversion: 2.0&#xd;
+sap-metadata-last-modified: Tue, 02 Oct 2018 22:50:53 GMT&#xd;
+cache-control: max-age=29030400&#xd;
+last-modified: Tue, 18 May 2021 12:31:17 GMT&#xd;
+sap-processing-info: ODataBEP=,crp=,RAL=,st=,MedCacheHub=SHM,codeployed=X,softstate=&#xd;
+sap-server: true&#xd;
+content-encoding: gzip&#xd;
+date: Wed, 19 May 2021 00:27:27 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

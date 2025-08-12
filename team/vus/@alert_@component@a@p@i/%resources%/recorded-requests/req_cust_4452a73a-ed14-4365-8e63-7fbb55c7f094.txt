@@ -1,0 +1,13 @@
+POST http://54.174.207.179/api_alert?task=report HTTP/1.1
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Accept-Language: en-us
+Pragma: no-cache
+Accept: */*
+Connection: keep-alive
+User-Agent: Ushahidi/3.7 CFNetwork/672.0.8 Darwin/14.0.0
+Host: 54.174.207.179
+Cookie: ushahidi=pooo8k2dmihic14lq71oi90dl6
+Content-Length: 331
+
+incident_ampm=am&resp=json&incident_description=goeaiusahfi&location_name=Z.A.%20les%20Paluds%201%20et%202,%20Aubagne,%20Provence-Alpes-C%C3%B4te%20d'Azur,BIRMANIE&incident_title=cusbluoaqizowmzxdyuq&longitude=96.142044&incident_hour=11&latitude=16.790429&incident_category=1&incident_date=12/07/2015&task=report&incident_minute=49
