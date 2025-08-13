@@ -1,0 +1,89 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/oauth2/v4/token"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@ford/%resources%/recorded-artifacts/b5112240-29b8-4359-8705-02806c70d6bb.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="b5112240-29b8-4359-8705-02806c70d6bb">
+    <embedded-action>09b4e24c-25fe-4699-aad9-a05cd2525a16</embedded-action>
+    <embedded-action>778c03ea-5a76-4b97-8d46-bfac2ddb2fba</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_b5112240-29b8-4359-8705-02806c70d6bb.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;65d350ce-140bc5&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Mon, 19 Feb 2024 12:59:58 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/101/images/slider_car.png"
+    path="/101/images/slider_car.png" postType="6"
+    recordedArtifactZipFileName="team/vus/@ford/%resources%/recorded-artifacts/b5112240-29b8-4359-8705-02806c70d6bb.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="sampleapp.tricentis.com_1" slaProfileEnabled="false"
+    uid="09b4e24c-25fe-4699-aad9-a05cd2525a16" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_09b4e24c-25fe-4699-aad9-a05cd2525a16.txt</requestContentFileDescription>
+    <header name="Accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br, zstd"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="_mkto_trk=id:070-PYT-570&amp;token:_mch-tricentis.com-78cc11d524bbc68eca70687755f40e9; optimizelyEndUserId=oeu1736432814748r0.6804130093585121; _ga=GA1.1.1890021463.1736432815; _biz_uid=42ed4994c2c64b2bce5f22635b473487; _biz_flagsA=%7B%22Version%22%3A1%2C%22Mkto%22%3A%221%22%2C%22ViewThrough%22%3A%221%22%2C%22XDomain%22%3A%221%22%7D; cf_clearance=9jPtpbt6IZWfk2bdi4sqT1YH3YuiM7ey_gzOyK1uAZM-1748529595-1.2.1.1-mpQdH4L6pXPY3ODUAdOwY6VjPJLZKyMOZ6lAkF6kuThuHvlKkvcslQj0IWtOVNlTf0FodKeQaYER_GE9al7dxmzBtroNIH2w8dy7oG1KEZBnhl3C0yG.XX39uE0mTSr3uqTOwuRweWKmIfZl5XV.IMQdd8zM1XJYmVEugu6b.FPCjAM5.WszCNbbu1tlpwc_6e8UciGBIhF7Osq7QrL0YRItsHtat6GgrdlkBuaJ5iAx5fzT1NBOgm9zYzVEINdFNbUYXLuQSzXPsHjPoqjjM4Xtsr7CxDiGmJe4avFTv3AD5vxNsf9iA6FaaD59YsE3rmNRw4l_0hJpLzTAWEYGfK5VibV1drCJzW2Nph35Ovg; ajs_anonymous_id=65115237-0321-45f3-814b-c6ea6f315f54; _gcl_au=1.1.1915425826.1748529590; _biz_nA=4; _biz_pendingA=%5B%5D; OptanonConsent=isGpcEnabled=0&amp;datestamp=Tue+Aug+05+2025+10%3A38%3A05+GMT-0400+(Eastern+Daylight+Time)&amp;version=202401.1.0&amp;browserGpcFlag=0&amp;isIABGlobal=false&amp;hosts=&amp;landingPath=NotLandingPage&amp;groups=C0001%3A1%2CC0002%3A1%2CC0004%3A1%2CC0003%3A1%2CC0005%3A1&amp;AwaitingReconsent=false&amp;geolocation=US%3BMA; OptanonAlertBoxClosed=2025-08-05T14:38:05.686Z; _ga_489D1QT6C1=GS2.1.s1754404680$o3$g0$t1754404685$j55$l0$h0"/>
+    <header name="Host" value="sampleapp.tricentis.com"/>
+    <header name="Referer" value="https://sampleapp.tricentis.com/101/"/>
+    <header name="sec-ch-ua" value="&quot;Not;A=Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;139&quot;, &quot;Chromium&quot;;v=&quot;139&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="image"/>
+    <header name="Sec-Fetch-Mode" value="no-cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Wed, 13 Aug 2025 12:17:30 GMT&#xd;
+Content-Type: image/png&#xd;
+Content-Length: 1313733&#xd;
+Connection: keep-alive&#xd;
+Server: nginx/1.28.0&#xd;
+Accept-Ranges: bytes&#xd;
+ETag: "65d350ce-140bc5"&#xd;
+Last-Modified: Mon, 19 Feb 2024 12:59:58 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/jpeg"
+    eTag="&quot;65d350ce-18ed24&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Mon, 19 Feb 2024 12:59:58 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/101/images/slider_camper.jpg"
+    path="/101/images/slider_camper.jpg" postType="6"
+    recordedArtifactZipFileName="team/vus/@ford/%resources%/recorded-artifacts/b5112240-29b8-4359-8705-02806c70d6bb.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="sampleapp.tricentis.com_1" slaProfileEnabled="false"
+    uid="778c03ea-5a76-4b97-8d46-bfac2ddb2fba" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_778c03ea-5a76-4b97-8d46-bfac2ddb2fba.txt</requestContentFileDescription>
+    <header name="Accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br, zstd"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="_mkto_trk=id:070-PYT-570&amp;token:_mch-tricentis.com-78cc11d524bbc68eca70687755f40e9; optimizelyEndUserId=oeu1736432814748r0.6804130093585121; _ga=GA1.1.1890021463.1736432815; _biz_uid=42ed4994c2c64b2bce5f22635b473487; _biz_flagsA=%7B%22Version%22%3A1%2C%22Mkto%22%3A%221%22%2C%22ViewThrough%22%3A%221%22%2C%22XDomain%22%3A%221%22%7D; cf_clearance=9jPtpbt6IZWfk2bdi4sqT1YH3YuiM7ey_gzOyK1uAZM-1748529595-1.2.1.1-mpQdH4L6pXPY3ODUAdOwY6VjPJLZKyMOZ6lAkF6kuThuHvlKkvcslQj0IWtOVNlTf0FodKeQaYER_GE9al7dxmzBtroNIH2w8dy7oG1KEZBnhl3C0yG.XX39uE0mTSr3uqTOwuRweWKmIfZl5XV.IMQdd8zM1XJYmVEugu6b.FPCjAM5.WszCNbbu1tlpwc_6e8UciGBIhF7Osq7QrL0YRItsHtat6GgrdlkBuaJ5iAx5fzT1NBOgm9zYzVEINdFNbUYXLuQSzXPsHjPoqjjM4Xtsr7CxDiGmJe4avFTv3AD5vxNsf9iA6FaaD59YsE3rmNRw4l_0hJpLzTAWEYGfK5VibV1drCJzW2Nph35Ovg; ajs_anonymous_id=65115237-0321-45f3-814b-c6ea6f315f54; _gcl_au=1.1.1915425826.1748529590; _biz_nA=4; _biz_pendingA=%5B%5D; OptanonConsent=isGpcEnabled=0&amp;datestamp=Tue+Aug+05+2025+10%3A38%3A05+GMT-0400+(Eastern+Daylight+Time)&amp;version=202401.1.0&amp;browserGpcFlag=0&amp;isIABGlobal=false&amp;hosts=&amp;landingPath=NotLandingPage&amp;groups=C0001%3A1%2CC0002%3A1%2CC0004%3A1%2CC0003%3A1%2CC0005%3A1&amp;AwaitingReconsent=false&amp;geolocation=US%3BMA; OptanonAlertBoxClosed=2025-08-05T14:38:05.686Z; _ga_489D1QT6C1=GS2.1.s1754404680$o3$g0$t1754404685$j55$l0$h0"/>
+    <header name="Host" value="sampleapp.tricentis.com"/>
+    <header name="Referer" value="https://sampleapp.tricentis.com/101/"/>
+    <header name="sec-ch-ua" value="&quot;Not;A=Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;139&quot;, &quot;Chromium&quot;;v=&quot;139&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="image"/>
+    <header name="Sec-Fetch-Mode" value="no-cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Wed, 13 Aug 2025 12:17:30 GMT&#xd;
+Content-Type: image/jpeg&#xd;
+Content-Length: 1633572&#xd;
+Connection: keep-alive&#xd;
+Server: nginx/1.28.0&#xd;
+Accept-Ranges: bytes&#xd;
+ETag: "65d350ce-18ed24"&#xd;
+Last-Modified: Mon, 19 Feb 2024 12:59:58 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

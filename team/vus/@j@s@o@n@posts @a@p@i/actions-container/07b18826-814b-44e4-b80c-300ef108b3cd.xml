@@ -4,7 +4,7 @@
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="POST" name="/posts" path="/posts" postType="4"
     serverUid="jsonplaceholder_posts_api_(sample)_server"
-    slaProfileEnabled="false" uid="d1415b6b-41eb-4b02-9c17-4a1451a06daa" useKeepAlive="false">
+    slaProfileEnabled="false" uid="07b18826-814b-44e4-b80c-300ef108b3cd" useKeepAlive="false">
     <header name="Content-Type" value="application/json"/>
     <responseHeaders/>
     <record-html-infos extractorRegExp="false" htmlType="0"/>

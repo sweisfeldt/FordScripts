@@ -1,5 +1,5 @@
 <population uid="JSON">
-    <split cache="1" factor="100.0" virtualUserUid="JSONPlaceholder Posts API (Sample)">
+    <split cache="1" factor="100.0" virtualUserUid="JSONPosts API">
         <browser-profile acceptEncoding="GZIP,DEFLATE,BROTLI"
             connections="6" cookies="true" http2="true" name="browser.recorded"/>
         <wan-emulation-profile
