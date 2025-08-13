@@ -1,0 +1,12 @@
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/posts" path="/posts" postType="4"
+    serverUid="jsonplaceholder_posts_api_(sample)_server"
+    slaProfileEnabled="false" uid="d1415b6b-41eb-4b02-9c17-4a1451a06daa" useKeepAlive="false">
+    <header name="Content-Type" value="application/json"/>
+    <responseHeaders/>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[Encoded(Base64):ew0KICAic3VtbWFyeSIgOiBudWxsLA0KICAiZGVzY3JpcHRpb24iIDogbnVsbCwNCiAgInZhbHVlIiA6IHsNCiAgICAidGl0bGUiIDogImZvbyIsDQogICAgImJvZHkiIDogImJhciIsDQogICAgInVzZXJJZCIgOiAxDQogIH0sDQogICJleHRlcm5hbFZhbHVlIiA6IG51bGwsDQogICIkcmVmIiA6IG51bGwsDQogICJleHRlbnNpb25zIiA6IG51bGwsDQogICJ2YWx1ZVNldEZsYWciIDogdHJ1ZQ0KfQ==]]></textPostContent>
+</http-action>
