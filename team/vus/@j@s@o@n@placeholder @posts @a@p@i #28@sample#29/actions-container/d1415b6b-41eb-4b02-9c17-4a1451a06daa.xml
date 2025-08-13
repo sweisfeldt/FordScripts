@@ -8,5 +8,5 @@
     <header name="Content-Type" value="application/json"/>
     <responseHeaders/>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
-    <textPostContent><![CDATA[Encoded(Base64):ew0KICAic3VtbWFyeSIgOiBudWxsLA0KICAiZGVzY3JpcHRpb24iIDogbnVsbCwNCiAgInZhbHVlIiA6IHsNCiAgICAidGl0bGUiIDogImZvbyIsDQogICAgImJvZHkiIDogImJhciIsDQogICAgInVzZXJJZCIgOiAxDQogIH0sDQogICJleHRlcm5hbFZhbHVlIiA6IG51bGwsDQogICIkcmVmIiA6IG51bGwsDQogICJleHRlbnNpb25zIiA6IG51bGwsDQogICJ2YWx1ZVNldEZsYWciIDogdHJ1ZQ0KfQ==]]></textPostContent>
+    <textPostContent><![CDATA[Encoded(Base64):ew0KICAic3VtbWFyeSIgOiBudWxsLA0KICAiZGVzY3JpcHRpb24iIDogbnVsbCwNCiAgInZhbHVlIiA6IHsNCiAgICAidGl0bGUiIDogImZvbyIsDQogICAgImJvZHkiIDogImJhciIsDQogICAgInVzZXJJZCIgOiAxDQogIH0sDQogICJleHRlcm5hbFZhbHVlIiA6IG51bGwsDQogICIkcmVmIiA6IG51bGwsDQogICJleHRlbnNpb25zIiA6IG51bGwsDQogICJ2YWx1ZVNldEZsYWciIDogdHJ1ZQ0gCn0g]]></textPostContent>
 </http-action>
